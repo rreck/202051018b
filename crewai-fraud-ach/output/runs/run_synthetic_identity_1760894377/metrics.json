@@ -1,0 +1,25 @@
+{
+  "run_id": "run_synthetic_identity_1760894377",
+  "fraud_type": "synthetic_identity",
+  "transaction_count": 400,
+  "fraud_count": 40,
+  "detected_count": 0,
+  "true_positives": 0,
+  "false_positives": 0,
+  "true_negatives": 360,
+  "false_negatives": 40,
+  "accuracy": 0.9,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1_score": 0.0,
+  "score_distribution": {
+    "0-25": 400,
+    "26-50": 0,
+    "51-75": 0,
+    "76-100": 0
+  },
+  "pattern_flag_counts": {},
+  "processing_time": 0.014259576797485352,
+  "status": "completed",
+  "timestamp": 1760894377
+}

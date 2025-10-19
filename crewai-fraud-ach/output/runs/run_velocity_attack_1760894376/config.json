@@ -1,0 +1,8 @@
+{
+  "run_id": "run_velocity_attack_1760894376",
+  "fraud_type": "velocity_attack",
+  "transaction_count": 400,
+  "fraud_intensity": 0.1,
+  "detection_threshold": 75,
+  "timestamp": 1760894376
+}

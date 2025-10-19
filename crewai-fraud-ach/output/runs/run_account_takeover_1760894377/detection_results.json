@@ -1,0 +1,3202 @@
+[
+  {
+    "transaction_id": 4526066,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526067,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526068,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526069,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526070,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526071,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526072,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526073,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526074,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526075,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526076,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526077,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526078,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526080,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526081,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526082,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526083,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526084,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526085,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526086,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526088,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526089,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526090,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526091,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526092,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526093,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526094,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526095,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526097,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526098,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526099,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526100,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526101,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526102,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526103,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526104,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526105,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526106,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526107,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526108,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526109,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526110,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526111,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526113,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526114,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526115,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526116,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526117,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526118,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526119,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526120,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526121,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526123,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526124,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526125,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526126,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526127,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526128,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526129,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526130,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526132,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526133,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526134,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526135,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526136,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526137,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526138,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526139,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526140,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526142,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526143,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526145,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526146,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526147,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526148,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526149,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526150,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526151,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526152,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526154,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526155,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526156,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526157,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526158,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526160,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526161,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526162,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526163,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526164,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526165,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526166,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526167,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526168,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526169,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526171,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526172,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526173,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526174,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526175,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526176,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526177,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526179,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526180,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526181,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526182,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526183,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526184,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526185,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526186,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526187,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526188,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526189,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526190,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526191,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526192,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526193,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526194,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526195,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526196,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526197,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526198,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526199,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526200,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526201,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526202,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526203,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526204,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526205,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526206,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526207,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526208,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526209,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526211,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526212,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526213,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526214,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526215,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526216,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526217,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526218,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526219,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526220,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526221,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526222,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526223,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526224,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526225,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526226,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526227,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526228,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526229,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526230,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526231,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526232,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526233,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526234,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526235,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526236,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526237,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526239,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526240,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526242,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526243,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526244,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526245,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526246,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526247,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526248,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526249,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526250,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526251,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526252,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526253,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526254,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526255,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526256,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526257,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526258,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526259,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526260,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526261,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526262,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526263,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526264,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526265,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526266,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526267,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526268,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526269,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526271,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526272,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526273,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526274,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526275,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526276,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526277,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526278,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526279,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526280,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526281,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526283,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526284,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526285,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526286,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526287,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526289,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526290,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526291,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526293,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526294,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526295,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526296,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526298,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526299,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526300,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526301,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526302,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526303,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526304,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526305,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526306,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526307,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526308,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526309,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526310,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526311,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526312,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526313,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526314,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526315,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526316,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526317,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526318,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526319,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526320,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526321,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526323,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526324,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526325,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526326,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526327,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526328,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526329,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526330,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526331,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526332,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526333,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526334,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526335,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526336,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526337,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526338,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526339,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526340,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526342,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526343,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526344,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526345,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526346,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526347,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526349,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526350,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526351,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526352,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526353,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526354,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526355,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526357,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526358,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526359,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526360,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526361,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526362,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526363,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526364,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526365,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526366,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526367,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526368,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526369,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526370,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526371,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526372,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526373,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526374,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526375,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526376,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526378,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526379,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526380,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526381,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526382,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526383,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526384,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526385,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526386,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526387,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526388,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526389,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526390,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526392,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526393,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526394,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526395,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526396,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526397,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526398,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526399,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526400,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526401,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526402,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526403,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526404,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526406,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526408,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526409,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526411,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526412,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526413,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526414,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526415,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526416,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526417,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526418,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526420,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526421,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526422,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526423,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526424,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526425,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526426,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526427,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526429,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526430,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526431,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526432,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526433,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526434,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526436,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526438,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526439,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526440,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526441,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526442,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526443,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526444,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526445,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526446,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526447,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526448,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526449,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526450,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526451,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526452,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526453,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526454,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526455,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526456,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526457,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526458,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526459,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526460,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526462,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526463,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526464,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526465,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526466,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526467,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526469,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526470,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526471,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526472,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526473,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526475,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526476,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526477,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526478,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526480,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526481,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526482,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526483,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526484,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526485,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526486,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526488,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526489,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526490,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526491,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526492,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526494,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526496,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526497,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526498,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526499,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526500,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526501,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526502,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526503,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526504,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  },
+  {
+    "transaction_id": 4526505,
+    "fraud_score": 0,
+    "fraud_detected": false,
+    "pattern_flags": [],
+    "risk_level": "LOW",
+    "details": {}
+  }
+]
