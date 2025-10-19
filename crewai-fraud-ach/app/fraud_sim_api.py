@@ -32,6 +32,7 @@ class FraudSimMetrics:
             'total_fraud_detected': 0,
             'pattern_flags': {}
         }
+        self._run_history = []  # Store last 100 runs for comparison
 
     def increment(self, metric: str, value: float = 1.0):
         with self._lock:
@@ -46,9 +47,29 @@ class FraudSimMetrics:
         with self._lock:
             self._metrics['pattern_flags'][flag] = count
 
+    def add_run_result(self, run_id: str, fraud_type: str, accuracy: float, precision: float, recall: float, f1_score: float):
+        """Track individual run results for comparison"""
+        with self._lock:
+            self._run_history.append({
+                'run_id': run_id,
+                'fraud_type': fraud_type,
+                'accuracy': accuracy,
+                'precision': precision,
+                'recall': recall,
+                'f1_score': f1_score,
+                'timestamp': time.time()
+            })
+            # Keep only last 100 runs
+            if len(self._run_history) > 100:
+                self._run_history.pop(0)
+
     def get_metrics(self) -> Dict:
         with self._lock:
             return self._metrics.copy()
+
+    def get_run_history(self) -> list:
+        with self._lock:
+            return self._run_history.copy()
 
 
 FRAUD_SIM_METRICS = FraudSimMetrics()
@@ -221,6 +242,16 @@ class FraudSimAPIHandler(BaseHTTPRequestHandler):
             FRAUD_SIM_METRICS.increment('total_transactions_analyzed', metrics.transaction_count)
             FRAUD_SIM_METRICS.increment('total_fraud_detected', metrics.detected_count)
 
+            # Track run history for comparison
+            FRAUD_SIM_METRICS.add_run_result(
+                run_id=metrics.run_id,
+                fraud_type=metrics.fraud_type,
+                accuracy=metrics.accuracy,
+                precision=metrics.precision,
+                recall=metrics.recall,
+                f1_score=metrics.f1_score
+            )
+
             for flag, count in metrics.pattern_flag_counts.items():
                 FRAUD_SIM_METRICS.update_pattern_flag(flag, count)
 
@@ -240,6 +271,7 @@ class FraudSimAPIHandler(BaseHTTPRequestHandler):
     def handle_metrics(self):
         """GET /sim/metrics - Get Prometheus-format metrics"""
         metrics = FRAUD_SIM_METRICS.get_metrics()
+        run_history = FRAUD_SIM_METRICS.get_run_history()
 
         output = []
         output.append("# HELP fraud_sim_runs_total Total simulation runs created")
@@ -286,6 +318,27 @@ class FraudSimAPIHandler(BaseHTTPRequestHandler):
         output.append("# TYPE fraud_sim_pattern_flags gauge")
         for flag, count in metrics['pattern_flags'].items():
             output.append(f'fraud_sim_pattern_flags{{flag="{flag}"}} {count}')
+
+        # Per-run metrics for comparison charts
+        output.append("# HELP fraud_sim_run_accuracy Per-run accuracy with run_id and fraud_type labels")
+        output.append("# TYPE fraud_sim_run_accuracy gauge")
+        for run in run_history:
+            output.append(f'fraud_sim_run_accuracy{{run_id="{run["run_id"]}",fraud_type="{run["fraud_type"]}"}} {run["accuracy"]}')
+
+        output.append("# HELP fraud_sim_run_precision Per-run precision with run_id and fraud_type labels")
+        output.append("# TYPE fraud_sim_run_precision gauge")
+        for run in run_history:
+            output.append(f'fraud_sim_run_precision{{run_id="{run["run_id"]}",fraud_type="{run["fraud_type"]}"}} {run["precision"]}')
+
+        output.append("# HELP fraud_sim_run_recall Per-run recall with run_id and fraud_type labels")
+        output.append("# TYPE fraud_sim_run_recall gauge")
+        for run in run_history:
+            output.append(f'fraud_sim_run_recall{{run_id="{run["run_id"]}",fraud_type="{run["fraud_type"]}"}} {run["recall"]}')
+
+        output.append("# HELP fraud_sim_run_f1_score Per-run F1 score with run_id and fraud_type labels")
+        output.append("# TYPE fraud_sim_run_f1_score gauge")
+        for run in run_history:
+            output.append(f'fraud_sim_run_f1_score{{run_id="{run["run_id"]}",fraud_type="{run["fraud_type"]}"}} {run["f1_score"]}')
 
         self.send_response(200)
         self.send_header("Content-Type", "text/plain; version=0.0.4; charset=utf-8")

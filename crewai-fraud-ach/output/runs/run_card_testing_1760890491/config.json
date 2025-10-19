@@ -1,0 +1,8 @@
+{
+  "run_id": "run_card_testing_1760890491",
+  "fraud_type": "card_testing",
+  "transaction_count": 800,
+  "fraud_intensity": 0.12,
+  "detection_threshold": 75,
+  "timestamp": 1760890491
+}
