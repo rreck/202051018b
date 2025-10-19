@@ -249,6 +249,76 @@ class SyntheticPaymentGenerator:
 
         return txn
 
+    def _generate_velocity_attack(self, timestamp: datetime, base_card_id: int, sequence: int) -> SyntheticTransaction:
+        """Generate velocity attack fraud transaction"""
+        self.transaction_id_counter += 1
+
+        # Velocity: many transactions quickly, normal amounts, same card
+        txn = self._generate_legitimate_transaction(timestamp)
+
+        # Override with velocity attack characteristics
+        txn.CreditCardAccountID = base_card_id  # Same card
+        txn.Amount = round(random.uniform(50, 300), 2)  # Normal amounts
+        txn.TransactionStatusTypeID = 5  # All approved
+        txn.is_fraud = True
+        txn.fraud_type = "VELOCITY_ATTACK"
+        txn.fraud_score = 80
+
+        flags = ["velocity_attack_high_frequency"]
+        if sequence > 5:
+            flags.append("velocity_attack_sustained")
+        txn.fraud_flags = flags
+
+        return txn
+
+    def _generate_account_takeover(self, timestamp: datetime, victim_card_id: int) -> SyntheticTransaction:
+        """Generate account takeover fraud transaction"""
+        self.transaction_id_counter += 1
+
+        # Account takeover: unusual location, large amount, different merchant pattern
+        txn = self._generate_legitimate_transaction(timestamp)
+
+        # Override with account takeover characteristics
+        txn.CreditCardAccountID = victim_card_id
+        txn.Amount = round(random.uniform(500, 2000), 2)  # Large amounts
+        # Change location to unusual state
+        unusual_city, unusual_state = random.choice([("Miami", "FL"), ("Seattle", "WA"), ("Portland", "OR")])
+        txn.City = unusual_city
+        txn.State = unusual_state
+        txn.TransactionStatusTypeID = 5
+        txn.is_fraud = True
+        txn.fraud_type = "ACCOUNT_TAKEOVER"
+        txn.fraud_score = 90
+
+        flags = ["account_takeover_unusual_location", "account_takeover_large_amount"]
+        txn.fraud_flags = flags
+
+        return txn
+
+    def _generate_synthetic_identity(self, timestamp: datetime) -> SyntheticTransaction:
+        """Generate synthetic identity fraud transaction"""
+        self.transaction_id_counter += 1
+
+        # Synthetic identity: mismatched name patterns, new account, high spend
+        txn = self._generate_legitimate_transaction(timestamp)
+
+        # Override with synthetic identity characteristics
+        # Mix names that don't match typical patterns
+        txn.FirstName = random.choice(self.first_names)
+        txn.LastName = random.choice(["Smith-Jones", "Garcia-Williams", "Lee-Brown"])  # Unusual compound names
+        txn.NameOnCard = f"{txn.FirstName} {random.choice(self.last_names)}"  # Mismatched
+        txn.Email = f"{txn.FirstName.lower()}{random.randint(1000,9999)}@tempmail.com"  # Generic email
+        txn.Amount = round(random.uniform(300, 1000), 2)  # High spend for new account
+        txn.TransactionStatusTypeID = 5
+        txn.is_fraud = True
+        txn.fraud_type = "SYNTHETIC_IDENTITY"
+        txn.fraud_score = 85
+
+        flags = ["synthetic_identity_mismatched_data", "synthetic_identity_high_spend"]
+        txn.fraud_flags = flags
+
+        return txn
+
     def generate_dataset(self,
                         transaction_count: int = 1000,
                         fraud_type: str = "card_testing",
@@ -300,6 +370,64 @@ class SyntheticPaymentGenerator:
 
                 if transaction_index >= transaction_count:
                     break
+
+        elif fraud_type == "velocity_attack":
+            # Generate velocity attack: many rapid transactions from same card
+            attack_count = fraud_count // 10  # Each attack is ~10 transactions
+            attack_indices = random.sample(range(transaction_count), attack_count)
+
+            current_time = start_time
+            transaction_index = 0
+
+            for i in range(transaction_count):
+                if i in attack_indices:
+                    # Start of velocity attack
+                    base_card_id = self.card_id_counter + random.randint(0, 10000)
+                    for seq in range(10):  # 10 rapid transactions
+                        if transaction_index >= transaction_count:
+                            break
+                        current_time += timedelta(minutes=random.randint(5, 15))
+                        txn = self._generate_velocity_attack(current_time, base_card_id, seq)
+                        transactions.append(txn)
+                        transaction_index += 1
+                else:
+                    current_time += timedelta(minutes=random.randint(1, 60))
+                    txn = self._generate_legitimate_transaction(current_time)
+                    transactions.append(txn)
+                    transaction_index += 1
+
+                if transaction_index >= transaction_count:
+                    break
+
+        elif fraud_type == "account_takeover":
+            # Generate account takeover: unusual location + large amounts
+            fraud_indices = set(random.sample(range(transaction_count), fraud_count))
+            victim_card_id = self.card_id_counter + random.randint(0, 10000)
+            current_time = start_time
+
+            for i in range(transaction_count):
+                current_time += timedelta(minutes=random.randint(1, 60))
+                if i in fraud_indices:
+                    txn = self._generate_account_takeover(current_time, victim_card_id)
+                else:
+                    txn = self._generate_legitimate_transaction(current_time)
+
+                transactions.append(txn)
+
+        elif fraud_type == "synthetic_identity":
+            # Generate synthetic identity: mismatched data, new accounts
+            fraud_indices = set(random.sample(range(transaction_count), fraud_count))
+            current_time = start_time
+
+            for i in range(transaction_count):
+                current_time += timedelta(minutes=random.randint(1, 60))
+                if i in fraud_indices:
+                    txn = self._generate_synthetic_identity(current_time)
+                else:
+                    txn = self._generate_legitimate_transaction(current_time)
+
+                transactions.append(txn)
+
         else:
             # Default: randomly distributed fraud
             fraud_indices = set(random.sample(range(transaction_count), fraud_count))

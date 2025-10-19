@@ -201,8 +201,9 @@ class FraudSimAPIHandler(BaseHTTPRequestHandler):
         detection_threshold = data.get('detection_threshold', 75)
 
         # Validate parameters
-        if fraud_type not in ['card_testing']:
-            self.send_error_response(400, f"Invalid fraud_type: {fraud_type}")
+        valid_fraud_types = ['card_testing', 'velocity_attack', 'account_takeover', 'synthetic_identity']
+        if fraud_type not in valid_fraud_types:
+            self.send_error_response(400, f"Invalid fraud_type: {fraud_type}. Valid types: {valid_fraud_types}")
             return
 
         if not (100 <= transaction_count <= 100000):

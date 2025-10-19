@@ -1,0 +1,8 @@
+{
+  "run_id": "run_synthetic_identity_1760893681",
+  "fraud_type": "synthetic_identity",
+  "transaction_count": 500,
+  "fraud_intensity": 0.1,
+  "detection_threshold": 75,
+  "timestamp": 1760893681
+}
