@@ -1,0 +1,86 @@
+{
+  "start_time": 1760799474.969349,
+  "tests": [
+    {
+      "test": "batch_endpoint",
+      "timestamp": 1760799474.978598,
+      "status_code": 200,
+      "success": true,
+      "response": {
+        "status": "completed",
+        "processed": 0,
+        "failed": 0,
+        "results": []
+      },
+      "metrics_changed": false
+    },
+    {
+      "test": "continuous_load",
+      "duration_seconds": 30.066672325134277,
+      "iterations": 15,
+      "success": true
+    }
+  ],
+  "metrics_snapshots": [
+    {
+      "timestamp": 1760799474.9745507,
+      "label": "initial",
+      "metrics": {
+        "files_processed": 2.0,
+        "files_failed": 2.0,
+        "files_skipped": 0.0,
+        "raw_line": "transcribe_processing_time_seconds_bucket{le=\"0.005\"} 0.0"
+      }
+    },
+    {
+      "timestamp": 1760799474.9763732,
+      "label": "before_batch",
+      "metrics": {
+        "files_processed": 2.0,
+        "files_failed": 2.0,
+        "files_skipped": 0.0,
+        "raw_line": "transcribe_processing_time_seconds_bucket{le=\"0.005\"} 0.0"
+      }
+    },
+    {
+      "timestamp": 1760799479.9811819,
+      "label": "after_batch",
+      "metrics": {
+        "files_processed": 2.0,
+        "files_failed": 2.0,
+        "files_skipped": 0.0,
+        "raw_line": "transcribe_processing_time_seconds_bucket{le=\"0.005\"} 0.0"
+      }
+    },
+    {
+      "timestamp": 1760799479.983141,
+      "label": "load_start",
+      "metrics": {
+        "files_processed": 2.0,
+        "files_failed": 2.0,
+        "files_skipped": 0.0,
+        "raw_line": "transcribe_processing_time_seconds_bucket{le=\"0.005\"} 0.0"
+      }
+    },
+    {
+      "timestamp": 1760799510.0479193,
+      "label": "load_end",
+      "metrics": {
+        "files_processed": 2.0,
+        "files_failed": 2.0,
+        "files_skipped": 0.0,
+        "raw_line": "transcribe_processing_time_seconds_bucket{le=\"0.005\"} 0.0"
+      }
+    },
+    {
+      "timestamp": 1760799513.0551956,
+      "label": "final",
+      "metrics": {
+        "files_processed": 2.0,
+        "files_failed": 2.0,
+        "files_skipped": 0.0,
+        "raw_line": "transcribe_processing_time_seconds_bucket{le=\"0.005\"} 0.0"
+      }
+    }
+  ]
+}

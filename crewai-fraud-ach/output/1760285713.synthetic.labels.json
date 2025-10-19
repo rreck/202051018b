@@ -1,0 +1,3007 @@
+{
+  "generated_at": "2025-10-12T16:15:13.813731",
+  "transaction_count": 500,
+  "fraud_ratio": 0.2,
+  "labels": [
+    {
+      "transaction_id": "044000039094263",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 226433
+    },
+    {
+      "transaction_id": "021000029831772",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 492671
+    },
+    {
+      "transaction_id": "111000021524964",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 126111
+    },
+    {
+      "transaction_id": "111000023718423",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 193324
+    },
+    {
+      "transaction_id": "021000021124978",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 63892
+    },
+    {
+      "transaction_id": "044000030390545",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 488289
+    },
+    {
+      "transaction_id": "044000034350792",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 64843
+    },
+    {
+      "transaction_id": "021000024333972",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 188201
+    },
+    {
+      "transaction_id": "121000242594122",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 330194
+    },
+    {
+      "transaction_id": "063100278723976",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 370894
+    },
+    {
+      "transaction_id": "122105151402594",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 385996
+    },
+    {
+      "transaction_id": "121000242735409",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 9645426
+    },
+    {
+      "transaction_id": "111000026625933",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 183568
+    },
+    {
+      "transaction_id": "044000031259666",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 50000
+    },
+    {
+      "transaction_id": "021000025252774",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 251285
+    },
+    {
+      "transaction_id": "063100279975198",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 131444
+    },
+    {
+      "transaction_id": "031201465874080",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 5506854
+    },
+    {
+      "transaction_id": "111000020816628",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 73695
+    },
+    {
+      "transaction_id": "063100273248017",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 250000
+    },
+    {
+      "transaction_id": "021000026192734",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 487373
+    },
+    {
+      "transaction_id": "044000033711952",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 449320
+    },
+    {
+      "transaction_id": "111000020043051",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 277379
+    },
+    {
+      "transaction_id": "031201465188623",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 131393
+    },
+    {
+      "transaction_id": "031201460108002",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 137737
+    },
+    {
+      "transaction_id": "044000031604126",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 270571
+    },
+    {
+      "transaction_id": "031201467232484",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 50000
+    },
+    {
+      "transaction_id": "021000021242897",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 148855
+    },
+    {
+      "transaction_id": "122105153434165",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 428664
+    },
+    {
+      "transaction_id": "044000037990382",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 470993
+    },
+    {
+      "transaction_id": "031201461037545",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 7441960
+    },
+    {
+      "transaction_id": "021000025492099",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 371253
+    },
+    {
+      "transaction_id": "021000022595168",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 7546526
+    },
+    {
+      "transaction_id": "031201460694032",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 477068
+    },
+    {
+      "transaction_id": "122105156015216",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 93316
+    },
+    {
+      "transaction_id": "111000025307029",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 405791
+    },
+    {
+      "transaction_id": "816394949429502",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 403405
+    },
+    {
+      "transaction_id": "122105159449609",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 226498
+    },
+    {
+      "transaction_id": "122105158057679",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 80533
+    },
+    {
+      "transaction_id": "111000027874256",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 186422
+    },
+    {
+      "transaction_id": "021000024258106",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 350906
+    },
+    {
+      "transaction_id": "021000029817631",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 265362
+    },
+    {
+      "transaction_id": "111000023137409",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 131876
+    },
+    {
+      "transaction_id": "121000245086215",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 445875
+    },
+    {
+      "transaction_id": "021000022347464",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 360733
+    },
+    {
+      "transaction_id": "122105156160299",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 248302
+    },
+    {
+      "transaction_id": "063100279184509",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 212559
+    },
+    {
+      "transaction_id": "595234558987889",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 414509
+    },
+    {
+      "transaction_id": "031201468865736",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 180807
+    },
+    {
+      "transaction_id": "026009593742692",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 164438
+    },
+    {
+      "transaction_id": "111000026556294",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 439523
+    },
+    {
+      "transaction_id": "063100274607451",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 7534641
+    },
+    {
+      "transaction_id": "121000248705052",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 199440
+    },
+    {
+      "transaction_id": "031201468062908",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 297231
+    },
+    {
+      "transaction_id": "111000029127204",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 258209
+    },
+    {
+      "transaction_id": "044000038848226",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 140198
+    },
+    {
+      "transaction_id": "121000244123693",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 69290
+    },
+    {
+      "transaction_id": "048937627978259",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 234866
+    },
+    {
+      "transaction_id": "111000025871861",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 84675
+    },
+    {
+      "transaction_id": "031201467373198",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 199491
+    },
+    {
+      "transaction_id": "063100273012976",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 289467
+    },
+    {
+      "transaction_id": "026009598175433",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 103192
+    },
+    {
+      "transaction_id": "111000021867346",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 410418
+    },
+    {
+      "transaction_id": "111000027536200",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 50000
+    },
+    {
+      "transaction_id": "121000246780650",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 500000
+    },
+    {
+      "transaction_id": "063100273948505",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 410128
+    },
+    {
+      "transaction_id": "121000242730995",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 165482
+    },
+    {
+      "transaction_id": "031201463710651",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 374356
+    },
+    {
+      "transaction_id": "026009595301324",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 209111
+    },
+    {
+      "transaction_id": "111000022636678",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 385822
+    },
+    {
+      "transaction_id": "122105154625184",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 76211
+    },
+    {
+      "transaction_id": "026009592190462",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 100000
+    },
+    {
+      "transaction_id": "111000024057345",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 129813
+    },
+    {
+      "transaction_id": "044000039576034",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 198366
+    },
+    {
+      "transaction_id": "026009594351211",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 474897
+    },
+    {
+      "transaction_id": "063100275294773",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 7516949
+    },
+    {
+      "transaction_id": "063100277000361",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 447767
+    },
+    {
+      "transaction_id": "026009591011839",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 345045
+    },
+    {
+      "transaction_id": "026009593005507",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 110720
+    },
+    {
+      "transaction_id": "026009590543062",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 103609
+    },
+    {
+      "transaction_id": "122105158860596",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 424488
+    },
+    {
+      "transaction_id": "121000246821702",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 250000
+    },
+    {
+      "transaction_id": "121000245481928",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 156630
+    },
+    {
+      "transaction_id": "111000023499048",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 258780
+    },
+    {
+      "transaction_id": "123719334997773",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 356423
+    },
+    {
+      "transaction_id": "063100277099810",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 269344
+    },
+    {
+      "transaction_id": "111000028528495",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 187519
+    },
+    {
+      "transaction_id": "026009592451947",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 397284
+    },
+    {
+      "transaction_id": "122105158227792",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 406196
+    },
+    {
+      "transaction_id": "021000023318429",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 253716
+    },
+    {
+      "transaction_id": "021000029140548",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 1000000
+    },
+    {
+      "transaction_id": "044000032054472",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 7163792
+    },
+    {
+      "transaction_id": "658866716270504",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 398557
+    },
+    {
+      "transaction_id": "111000022537623",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 383221
+    },
+    {
+      "transaction_id": "706337316293332",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 185358
+    },
+    {
+      "transaction_id": "026009595844143",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 390113
+    },
+    {
+      "transaction_id": "122105156881784",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 144314
+    },
+    {
+      "transaction_id": "031201463519265",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 420927
+    },
+    {
+      "transaction_id": "063100271798111",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 58351
+    },
+    {
+      "transaction_id": "121000246440467",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 482378
+    },
+    {
+      "transaction_id": "122105157945565",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 379535
+    },
+    {
+      "transaction_id": "021000026976889",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 376695
+    },
+    {
+      "transaction_id": "121000242837599",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 420231
+    },
+    {
+      "transaction_id": "122105154776679",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 59672
+    },
+    {
+      "transaction_id": "122105153995816",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 8954886
+    },
+    {
+      "transaction_id": "044000030809936",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 403965
+    },
+    {
+      "transaction_id": "122105156467363",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 272791
+    },
+    {
+      "transaction_id": "063100276831531",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 84269
+    },
+    {
+      "transaction_id": "121000246273841",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 286637
+    },
+    {
+      "transaction_id": "026009592108905",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 64613
+    },
+    {
+      "transaction_id": "044000037441521",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 6819952
+    },
+    {
+      "transaction_id": "044000039153870",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 397818
+    },
+    {
+      "transaction_id": "063100278676808",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 50078
+    },
+    {
+      "transaction_id": "026009596332182",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 241102
+    },
+    {
+      "transaction_id": "122105159071918",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 324212
+    },
+    {
+      "transaction_id": "021000021768979",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 377777
+    },
+    {
+      "transaction_id": "111000022382976",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 115095
+    },
+    {
+      "transaction_id": "121000246034154",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 421425
+    },
+    {
+      "transaction_id": "063100273105485",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 282627
+    },
+    {
+      "transaction_id": "121000245606201",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 289222
+    },
+    {
+      "transaction_id": "064703388366435",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 499440
+    },
+    {
+      "transaction_id": "021000029551334",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 106804
+    },
+    {
+      "transaction_id": "063100278715131",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 382362
+    },
+    {
+      "transaction_id": "031201464320793",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 82753
+    },
+    {
+      "transaction_id": "021000029036180",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 410976
+    },
+    {
+      "transaction_id": "044000034940466",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 500000
+    },
+    {
+      "transaction_id": "026009599123005",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 50000
+    },
+    {
+      "transaction_id": "122105153460117",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 367115
+    },
+    {
+      "transaction_id": "111000023987008",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 489868
+    },
+    {
+      "transaction_id": "063100273258209",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 500000
+    },
+    {
+      "transaction_id": "026009596035765",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 497336
+    },
+    {
+      "transaction_id": "122105150766638",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 471261
+    },
+    {
+      "transaction_id": "044000034017967",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 136194
+    },
+    {
+      "transaction_id": "122105159991739",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 346393
+    },
+    {
+      "transaction_id": "122105157976089",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 408594
+    },
+    {
+      "transaction_id": "111000023532011",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 163158
+    },
+    {
+      "transaction_id": "063100277498734",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 84343
+    },
+    {
+      "transaction_id": "026009591812687",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 104029
+    },
+    {
+      "transaction_id": "026009596281052",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 89950
+    },
+    {
+      "transaction_id": "063100272442807",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 150051
+    },
+    {
+      "transaction_id": "063100271329178",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 454117
+    },
+    {
+      "transaction_id": "031201468477270",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 373589
+    },
+    {
+      "transaction_id": "122105152642589",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 498500
+    },
+    {
+      "transaction_id": "122105158465559",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 50000
+    },
+    {
+      "transaction_id": "063100272548625",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 5165224
+    },
+    {
+      "transaction_id": "111000021454939",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 78718
+    },
+    {
+      "transaction_id": "122105153845120",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 7695757
+    },
+    {
+      "transaction_id": "063100274618171",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 7595169
+    },
+    {
+      "transaction_id": "021000028294989",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 209067
+    },
+    {
+      "transaction_id": "063100278610850",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 484209
+    },
+    {
+      "transaction_id": "031201460646186",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 435464
+    },
+    {
+      "transaction_id": "111000029184098",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 255266
+    },
+    {
+      "transaction_id": "026009595478997",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 7653139
+    },
+    {
+      "transaction_id": "063100274915682",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 197609
+    },
+    {
+      "transaction_id": "044000034464309",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 191134
+    },
+    {
+      "transaction_id": "242127117032215",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 308546
+    },
+    {
+      "transaction_id": "044000039840180",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 120975
+    },
+    {
+      "transaction_id": "044000031662509",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 500000
+    },
+    {
+      "transaction_id": "111000020488796",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 422723
+    },
+    {
+      "transaction_id": "850218380916061",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 286015
+    },
+    {
+      "transaction_id": "044000038700107",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 7161449
+    },
+    {
+      "transaction_id": "111000024395845",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 472409
+    },
+    {
+      "transaction_id": "021000020353147",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 470150
+    },
+    {
+      "transaction_id": "026009596613855",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 214556
+    },
+    {
+      "transaction_id": "121000249258610",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 451012
+    },
+    {
+      "transaction_id": "026009594733945",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 8845203
+    },
+    {
+      "transaction_id": "121000247437964",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 415121
+    },
+    {
+      "transaction_id": "928771082473653",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 363933
+    },
+    {
+      "transaction_id": "021000022938030",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 496617
+    },
+    {
+      "transaction_id": "122105152939543",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 7597754
+    },
+    {
+      "transaction_id": "111000028336024",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 345317
+    },
+    {
+      "transaction_id": "026009598922868",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 240302
+    },
+    {
+      "transaction_id": "026009597794006",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 476067
+    },
+    {
+      "transaction_id": "121000246879473",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 250053
+    },
+    {
+      "transaction_id": "111000026427905",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 329920
+    },
+    {
+      "transaction_id": "026009598523723",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 364633
+    },
+    {
+      "transaction_id": "021000029716601",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 486911
+    },
+    {
+      "transaction_id": "021000029429654",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 414348
+    },
+    {
+      "transaction_id": "044000038646222",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 378469
+    },
+    {
+      "transaction_id": "122105159714920",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 202333
+    },
+    {
+      "transaction_id": "021000022933770",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 394399
+    },
+    {
+      "transaction_id": "031201461161276",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 328822
+    },
+    {
+      "transaction_id": "044000032543145",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 151905
+    },
+    {
+      "transaction_id": "063100279754104",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 377694
+    },
+    {
+      "transaction_id": "021000024922681",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 100964
+    },
+    {
+      "transaction_id": "021000023301180",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 349623
+    },
+    {
+      "transaction_id": "121000246543560",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 388564
+    },
+    {
+      "transaction_id": "063100273511763",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 143311
+    },
+    {
+      "transaction_id": "111000027818586",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 141438
+    },
+    {
+      "transaction_id": "111000028591354",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 327686
+    },
+    {
+      "transaction_id": "063100278009923",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 380902
+    },
+    {
+      "transaction_id": "111000023607675",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 462772
+    },
+    {
+      "transaction_id": "021000027142494",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 486994
+    },
+    {
+      "transaction_id": "063100271310471",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 267994
+    },
+    {
+      "transaction_id": "111000029916584",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 461276
+    },
+    {
+      "transaction_id": "044000034780991",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 78906
+    },
+    {
+      "transaction_id": "031201461395271",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 351097
+    },
+    {
+      "transaction_id": "021000026490728",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 89510
+    },
+    {
+      "transaction_id": "122105158511619",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 218247
+    },
+    {
+      "transaction_id": "122105151802892",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 393701
+    },
+    {
+      "transaction_id": "121000244091843",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 70584
+    },
+    {
+      "transaction_id": "886222570911683",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 402656
+    },
+    {
+      "transaction_id": "021000026203130",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 384140
+    },
+    {
+      "transaction_id": "122105152445795",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 238481
+    },
+    {
+      "transaction_id": "021000028681362",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 8182363
+    },
+    {
+      "transaction_id": "044000032272332",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 408038
+    },
+    {
+      "transaction_id": "026009590596357",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 321658
+    },
+    {
+      "transaction_id": "026009595391994",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 5321835
+    },
+    {
+      "transaction_id": "121000241883420",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 6223600
+    },
+    {
+      "transaction_id": "672931251639650",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 416095
+    },
+    {
+      "transaction_id": "021000027145678",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 223441
+    },
+    {
+      "transaction_id": "044000035764069",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 126991
+    },
+    {
+      "transaction_id": "228999081724442",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 302511
+    },
+    {
+      "transaction_id": "111000026117286",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 131326
+    },
+    {
+      "transaction_id": "111000020135235",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 291912
+    },
+    {
+      "transaction_id": "026009591506189",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 100000
+    },
+    {
+      "transaction_id": "063100274189494",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 129935
+    },
+    {
+      "transaction_id": "026009594606872",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 380891
+    },
+    {
+      "transaction_id": "026009594426749",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 133075
+    },
+    {
+      "transaction_id": "063100274987614",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 67213
+    },
+    {
+      "transaction_id": "026009599112644",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 451056
+    },
+    {
+      "transaction_id": "122105158973271",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 151371
+    },
+    {
+      "transaction_id": "031201468843158",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 458140
+    },
+    {
+      "transaction_id": "063100274753937",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 108460
+    },
+    {
+      "transaction_id": "111000020454560",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 70634
+    },
+    {
+      "transaction_id": "021000024861883",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 325341
+    },
+    {
+      "transaction_id": "940223411272551",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 370714
+    },
+    {
+      "transaction_id": "026009590321201",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 450928
+    },
+    {
+      "transaction_id": "122105156043543",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 441778
+    },
+    {
+      "transaction_id": "044000035122043",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 149115
+    },
+    {
+      "transaction_id": "122105158311876",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 74679
+    },
+    {
+      "transaction_id": "063100275256348",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 395004
+    },
+    {
+      "transaction_id": "121000247049183",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 205175
+    },
+    {
+      "transaction_id": "860136353049148",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 193121
+    },
+    {
+      "transaction_id": "111000028428774",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 230639
+    },
+    {
+      "transaction_id": "111000027558671",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 221391
+    },
+    {
+      "transaction_id": "026009595609558",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 9846068
+    },
+    {
+      "transaction_id": "026009590643998",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 495895
+    },
+    {
+      "transaction_id": "121000249557854",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 150311
+    },
+    {
+      "transaction_id": "121000247863231",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 148183
+    },
+    {
+      "transaction_id": "063100270517222",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 461524
+    },
+    {
+      "transaction_id": "026009591259289",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 441167
+    },
+    {
+      "transaction_id": "122105155787997",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 191576
+    },
+    {
+      "transaction_id": "063100277328068",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 66391
+    },
+    {
+      "transaction_id": "031201466043408",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 283437
+    },
+    {
+      "transaction_id": "021000023395481",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 146944
+    },
+    {
+      "transaction_id": "122105152546346",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 229425
+    },
+    {
+      "transaction_id": "121000242520297",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 197718
+    },
+    {
+      "transaction_id": "063100274576309",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 235743
+    },
+    {
+      "transaction_id": "111000024973178",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 143891
+    },
+    {
+      "transaction_id": "044000033702836",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 63425
+    },
+    {
+      "transaction_id": "122105152242675",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 242567
+    },
+    {
+      "transaction_id": "044000037339136",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 7292023
+    },
+    {
+      "transaction_id": "111000028116618",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 68297
+    },
+    {
+      "transaction_id": "021000023865399",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 104394
+    },
+    {
+      "transaction_id": "111000021640571",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 147478
+    },
+    {
+      "transaction_id": "063100279607639",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 297278
+    },
+    {
+      "transaction_id": "021000026390296",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 246130
+    },
+    {
+      "transaction_id": "111000024890190",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 144185
+    },
+    {
+      "transaction_id": "063100274887670",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 335930
+    },
+    {
+      "transaction_id": "063100270248864",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 355208
+    },
+    {
+      "transaction_id": "122105154567805",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 158224
+    },
+    {
+      "transaction_id": "021000023153133",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 9699618
+    },
+    {
+      "transaction_id": "063100279705684",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 57137
+    },
+    {
+      "transaction_id": "111000022008351",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 380114
+    },
+    {
+      "transaction_id": "031201462822361",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 287802
+    },
+    {
+      "transaction_id": "031201462743896",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 62895
+    },
+    {
+      "transaction_id": "111000025194033",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 399250
+    },
+    {
+      "transaction_id": "021000027098489",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 462867
+    },
+    {
+      "transaction_id": "026009598622694",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 383859
+    },
+    {
+      "transaction_id": "122105159320432",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 83860
+    },
+    {
+      "transaction_id": "111000022630146",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 280720
+    },
+    {
+      "transaction_id": "021000029854250",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 418409
+    },
+    {
+      "transaction_id": "031201460020533",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 73050
+    },
+    {
+      "transaction_id": "063100277573176",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 379951
+    },
+    {
+      "transaction_id": "122105155121143",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 394297
+    },
+    {
+      "transaction_id": "111000025948678",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 97852
+    },
+    {
+      "transaction_id": "121000241560908",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 323932
+    },
+    {
+      "transaction_id": "122105152778958",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 169809
+    },
+    {
+      "transaction_id": "021000026995801",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 191621
+    },
+    {
+      "transaction_id": "021000026053044",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 147611
+    },
+    {
+      "transaction_id": "026009596434646",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 275486
+    },
+    {
+      "transaction_id": "044000030355961",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 366915
+    },
+    {
+      "transaction_id": "121000241170869",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 9546648
+    },
+    {
+      "transaction_id": "026009596200766",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 210486
+    },
+    {
+      "transaction_id": "031201469869966",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 410793
+    },
+    {
+      "transaction_id": "122105152466160",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 219404
+    },
+    {
+      "transaction_id": "122105150556729",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 352295
+    },
+    {
+      "transaction_id": "121000246192743",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 264217
+    },
+    {
+      "transaction_id": "044000031544765",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 294611
+    },
+    {
+      "transaction_id": "121000248418206",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 201254
+    },
+    {
+      "transaction_id": "122105153407530",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 500000
+    },
+    {
+      "transaction_id": "021000029681258",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 320691
+    },
+    {
+      "transaction_id": "111000021645436",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 439274
+    },
+    {
+      "transaction_id": "026009592272450",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 225733
+    },
+    {
+      "transaction_id": "121000244677342",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 253789
+    },
+    {
+      "transaction_id": "031201461354612",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 351650
+    },
+    {
+      "transaction_id": "031201463591822",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 486710
+    },
+    {
+      "transaction_id": "021000026096258",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 349671
+    },
+    {
+      "transaction_id": "111000020134968",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 85753
+    },
+    {
+      "transaction_id": "111000029467214",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 461215
+    },
+    {
+      "transaction_id": "122105153759114",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 193275
+    },
+    {
+      "transaction_id": "031201464117630",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 228663
+    },
+    {
+      "transaction_id": "031201460146872",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 289324
+    },
+    {
+      "transaction_id": "026009595463322",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 304246
+    },
+    {
+      "transaction_id": "021000020797176",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 8024049
+    },
+    {
+      "transaction_id": "063100275303178",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 195407
+    },
+    {
+      "transaction_id": "111000029750438",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 213712
+    },
+    {
+      "transaction_id": "063100275108925",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 60156
+    },
+    {
+      "transaction_id": "026009597523260",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 214671
+    },
+    {
+      "transaction_id": "063100270898010",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 226965
+    },
+    {
+      "transaction_id": "063100272752205",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 285901
+    },
+    {
+      "transaction_id": "121000242997847",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 500000
+    },
+    {
+      "transaction_id": "063100274889392",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 58317
+    },
+    {
+      "transaction_id": "044000037992884",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 195095
+    },
+    {
+      "transaction_id": "021000029783640",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 8420339
+    },
+    {
+      "transaction_id": "026009593098675",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 9640556
+    },
+    {
+      "transaction_id": "121000242996801",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 422529
+    },
+    {
+      "transaction_id": "021000023628801",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 496078
+    },
+    {
+      "transaction_id": "044000036924532",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 250000
+    },
+    {
+      "transaction_id": "063100274327941",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 270121
+    },
+    {
+      "transaction_id": "111000022905038",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 445073
+    },
+    {
+      "transaction_id": "026009599856876",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 341584
+    },
+    {
+      "transaction_id": "044000038823311",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 289793
+    },
+    {
+      "transaction_id": "021000025493191",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 106983
+    },
+    {
+      "transaction_id": "121000241898147",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 402396
+    },
+    {
+      "transaction_id": "122105156016632",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 313360
+    },
+    {
+      "transaction_id": "063100279338540",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 181076
+    },
+    {
+      "transaction_id": "031201462604357",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 398792
+    },
+    {
+      "transaction_id": "111000025796202",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 467906
+    },
+    {
+      "transaction_id": "031201463290098",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 500000
+    },
+    {
+      "transaction_id": "021000026499572",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 322451
+    },
+    {
+      "transaction_id": "044000037401362",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 500000
+    },
+    {
+      "transaction_id": "063100270172949",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 244377
+    },
+    {
+      "transaction_id": "031201464668985",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 227360
+    },
+    {
+      "transaction_id": "063100276590181",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 404696
+    },
+    {
+      "transaction_id": "111000025510161",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 187386
+    },
+    {
+      "transaction_id": "031201465108311",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 449758
+    },
+    {
+      "transaction_id": "122105156110967",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 451148
+    },
+    {
+      "transaction_id": "088038456468009",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 193360
+    },
+    {
+      "transaction_id": "021000029309643",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 58765
+    },
+    {
+      "transaction_id": "026009599613838",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 466242
+    },
+    {
+      "transaction_id": "699947995516321",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 262967
+    },
+    {
+      "transaction_id": "031201461360524",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 375093
+    },
+    {
+      "transaction_id": "121000244797904",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 99558
+    },
+    {
+      "transaction_id": "021000029834329",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 7259582
+    },
+    {
+      "transaction_id": "111000027871339",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 245940
+    },
+    {
+      "transaction_id": "026009594609271",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 264197
+    },
+    {
+      "transaction_id": "122105157595554",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 310972
+    },
+    {
+      "transaction_id": "111000023106100",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 327009
+    },
+    {
+      "transaction_id": "122105154461272",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 373821
+    },
+    {
+      "transaction_id": "122105152962593",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 352917
+    },
+    {
+      "transaction_id": "031201465997454",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 8360021
+    },
+    {
+      "transaction_id": "021000020346507",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 256161
+    },
+    {
+      "transaction_id": "031201461728894",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 441711
+    },
+    {
+      "transaction_id": "063100278958386",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 140335
+    },
+    {
+      "transaction_id": "021000027570773",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 320342
+    },
+    {
+      "transaction_id": "063100272048378",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 250000
+    },
+    {
+      "transaction_id": "122105152717985",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 457293
+    },
+    {
+      "transaction_id": "044000035413335",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 422367
+    },
+    {
+      "transaction_id": "021000023520496",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 68252
+    },
+    {
+      "transaction_id": "063100279340795",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 65555
+    },
+    {
+      "transaction_id": "122105151548614",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 226014
+    },
+    {
+      "transaction_id": "122105158773139",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 466910
+    },
+    {
+      "transaction_id": "122105151911174",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 390037
+    },
+    {
+      "transaction_id": "111000028156502",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 7089646
+    },
+    {
+      "transaction_id": "021000026407318",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 428068
+    },
+    {
+      "transaction_id": "044000035732530",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 198855
+    },
+    {
+      "transaction_id": "044000032942706",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 361433
+    },
+    {
+      "transaction_id": "021000021849348",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 250000
+    },
+    {
+      "transaction_id": "026009598703456",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 90573
+    },
+    {
+      "transaction_id": "121000242386389",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 250000
+    },
+    {
+      "transaction_id": "021000029929874",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 311112
+    },
+    {
+      "transaction_id": "122105150651734",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 284168
+    },
+    {
+      "transaction_id": "031201466565204",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 53551
+    },
+    {
+      "transaction_id": "111000024271637",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 473369
+    },
+    {
+      "transaction_id": "044000036751222",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 198930
+    },
+    {
+      "transaction_id": "121000247251081",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 371892
+    },
+    {
+      "transaction_id": "121000249406874",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 178849
+    },
+    {
+      "transaction_id": "122105152745336",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 465105
+    },
+    {
+      "transaction_id": "145714350437698",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 232043
+    },
+    {
+      "transaction_id": "186460384222616",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 413588
+    },
+    {
+      "transaction_id": "026009592368751",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 321957
+    },
+    {
+      "transaction_id": "026009596616370",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 174631
+    },
+    {
+      "transaction_id": "044000033680348",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 221082
+    },
+    {
+      "transaction_id": "026009599061439",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 141012
+    },
+    {
+      "transaction_id": "111000020199676",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 7114874
+    },
+    {
+      "transaction_id": "026009598154824",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 82005
+    },
+    {
+      "transaction_id": "031201466515306",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 495573
+    },
+    {
+      "transaction_id": "026009595502503",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 284232
+    },
+    {
+      "transaction_id": "026009599397174",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 250000
+    },
+    {
+      "transaction_id": "122105157920774",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 228980
+    },
+    {
+      "transaction_id": "044000034592663",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 213651
+    },
+    {
+      "transaction_id": "021000024697449",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 308757
+    },
+    {
+      "transaction_id": "121000241638289",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 195396
+    },
+    {
+      "transaction_id": "121000247144071",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 88509
+    },
+    {
+      "transaction_id": "044000035666075",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 160229
+    },
+    {
+      "transaction_id": "031201469834368",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 6899014
+    },
+    {
+      "transaction_id": "122105158860393",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 343778
+    },
+    {
+      "transaction_id": "021000029332357",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 156840
+    },
+    {
+      "transaction_id": "031201463199984",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 491151
+    },
+    {
+      "transaction_id": "121000249810956",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 98981
+    },
+    {
+      "transaction_id": "021000021685371",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 378387
+    },
+    {
+      "transaction_id": "121000246858491",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 296399
+    },
+    {
+      "transaction_id": "026009592177755",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 255078
+    },
+    {
+      "transaction_id": "122105159478126",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 84756
+    },
+    {
+      "transaction_id": "121000246464313",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 99620
+    },
+    {
+      "transaction_id": "063100275933697",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 194559
+    },
+    {
+      "transaction_id": "122105156696269",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 9429857
+    },
+    {
+      "transaction_id": "031201468898283",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 246275
+    },
+    {
+      "transaction_id": "021000024070733",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 309591
+    },
+    {
+      "transaction_id": "044000039487096",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 6436224
+    },
+    {
+      "transaction_id": "122105158213905",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 414713
+    },
+    {
+      "transaction_id": "122105159376525",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 363684
+    },
+    {
+      "transaction_id": "044000035632968",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 151851
+    },
+    {
+      "transaction_id": "590042269877953",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 195047
+    },
+    {
+      "transaction_id": "044000031590893",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 5103614
+    },
+    {
+      "transaction_id": "021000023570131",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 500000
+    },
+    {
+      "transaction_id": "122105154218295",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 381865
+    },
+    {
+      "transaction_id": "031201464135887",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 135852
+    },
+    {
+      "transaction_id": "031201462562817",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 477286
+    },
+    {
+      "transaction_id": "044000039462866",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 147821
+    },
+    {
+      "transaction_id": "063100278203133",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 250000
+    },
+    {
+      "transaction_id": "121000249455470",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 418946
+    },
+    {
+      "transaction_id": "111000021554247",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 372256
+    },
+    {
+      "transaction_id": "026009591643437",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 408513
+    },
+    {
+      "transaction_id": "031201463578594",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 297976
+    },
+    {
+      "transaction_id": "026009596552486",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 385321
+    },
+    {
+      "transaction_id": "732604451308600",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 306087
+    },
+    {
+      "transaction_id": "026009590476581",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 354970
+    },
+    {
+      "transaction_id": "044000039794846",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 87674
+    },
+    {
+      "transaction_id": "111000022771664",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 408165
+    },
+    {
+      "transaction_id": "122105154060751",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 8555563
+    },
+    {
+      "transaction_id": "111000021402671",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 135759
+    },
+    {
+      "transaction_id": "031201460730638",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 417820
+    },
+    {
+      "transaction_id": "111000029515747",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 50000
+    },
+    {
+      "transaction_id": "021000020628326",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 500000
+    },
+    {
+      "transaction_id": "021000028328447",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 79870
+    },
+    {
+      "transaction_id": "021000028248077",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 202659
+    },
+    {
+      "transaction_id": "044000035806436",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 330946
+    },
+    {
+      "transaction_id": "452993950808745",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 358596
+    },
+    {
+      "transaction_id": "111000029462379",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 6750842
+    },
+    {
+      "transaction_id": "044000033269471",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 6587536
+    },
+    {
+      "transaction_id": "111000023537481",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 463544
+    },
+    {
+      "transaction_id": "111000025447476",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 191602
+    },
+    {
+      "transaction_id": "026009590472300",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 387960
+    },
+    {
+      "transaction_id": "121000242355104",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 242858
+    },
+    {
+      "transaction_id": "122105152404577",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 499844
+    },
+    {
+      "transaction_id": "026009596512616",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 371498
+    },
+    {
+      "transaction_id": "044000038627784",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 5407594
+    },
+    {
+      "transaction_id": "026009594889227",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 417123
+    },
+    {
+      "transaction_id": "121000249534979",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 100000
+    },
+    {
+      "transaction_id": "121000240057650",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 7454278
+    },
+    {
+      "transaction_id": "026009593143736",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 412891
+    },
+    {
+      "transaction_id": "044000030826257",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 50000
+    },
+    {
+      "transaction_id": "121000244823278",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 100000
+    },
+    {
+      "transaction_id": "021000029369436",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 461721
+    },
+    {
+      "transaction_id": "121000248887009",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 468960
+    },
+    {
+      "transaction_id": "920775072048420",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 452754
+    },
+    {
+      "transaction_id": "025838839050638",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 207992
+    },
+    {
+      "transaction_id": "063100276668012",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 8253045
+    },
+    {
+      "transaction_id": "063100271330057",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 83120
+    },
+    {
+      "transaction_id": "063100270041258",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 154535
+    },
+    {
+      "transaction_id": "063100270427424",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 9428572
+    },
+    {
+      "transaction_id": "044000039274110",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 50725
+    },
+    {
+      "transaction_id": "122105158110588",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 233502
+    },
+    {
+      "transaction_id": "121000246133555",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 404824
+    },
+    {
+      "transaction_id": "111000020769769",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 6040234
+    },
+    {
+      "transaction_id": "063100271521385",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 231205
+    },
+    {
+      "transaction_id": "044000037952383",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 440123
+    },
+    {
+      "transaction_id": "021000025367023",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 180341
+    },
+    {
+      "transaction_id": "026009599616085",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 352541
+    },
+    {
+      "transaction_id": "021000022439753",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 432600
+    },
+    {
+      "transaction_id": "063100279893720",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 125420
+    },
+    {
+      "transaction_id": "121000245113235",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 437518
+    },
+    {
+      "transaction_id": "122105158051089",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 280855
+    },
+    {
+      "transaction_id": "021000023521936",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 414886
+    },
+    {
+      "transaction_id": "121000242831858",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 115124
+    },
+    {
+      "transaction_id": "121000246673758",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 73176
+    },
+    {
+      "transaction_id": "021000022303561",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 103645
+    },
+    {
+      "transaction_id": "026009595536635",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 421921
+    },
+    {
+      "transaction_id": "026009591526637",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 254501
+    },
+    {
+      "transaction_id": "044000032845917",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 279429
+    },
+    {
+      "transaction_id": "026009592709736",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 323955
+    },
+    {
+      "transaction_id": "121000247961991",
+      "fraud_type": "amount_anomaly",
+      "fraud_score": 70,
+      "amount": 8848814
+    },
+    {
+      "transaction_id": "031201467123773",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 456397
+    },
+    {
+      "transaction_id": "122105151076193",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 69795
+    },
+    {
+      "transaction_id": "122105152409610",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 381594
+    },
+    {
+      "transaction_id": "044000036365784",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 182142
+    },
+    {
+      "transaction_id": "111000022359332",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 319544
+    },
+    {
+      "transaction_id": "021000026104645",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 149401
+    },
+    {
+      "transaction_id": "063100279755472",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 245127
+    },
+    {
+      "transaction_id": "031201462882708",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 93439
+    },
+    {
+      "transaction_id": "026009598096339",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 377093
+    },
+    {
+      "transaction_id": "111000020722505",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 302283
+    },
+    {
+      "transaction_id": "121000243584314",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 445943
+    },
+    {
+      "transaction_id": "856158366843969",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 217675
+    },
+    {
+      "transaction_id": "044000037343193",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 100000
+    },
+    {
+      "transaction_id": "122105154143976",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 139292
+    },
+    {
+      "transaction_id": "044000038526858",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 122924
+    },
+    {
+      "transaction_id": "026009590081970",
+      "fraud_type": "round_amount_pattern",
+      "fraud_score": 40,
+      "amount": 50000
+    }
+  ]
+}

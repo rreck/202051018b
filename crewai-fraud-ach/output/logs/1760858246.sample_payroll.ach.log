@@ -1,0 +1,2 @@
+Processing /work/input/sample_payroll.ach at 2025-10-19 07:17:26.551165
+Parse errors: ['Line 1: Invalid length 77 (expected 94)', 'Line 3: Invalid length 97 (expected 94)', 'Line 4: Invalid length 97 (expected 94)', 'Line 5: Invalid length 97 (expected 94)', 'Line 6: Invalid length 100 (expected 94)']

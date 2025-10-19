@@ -1,0 +1,353 @@
+{
+  "dashboard": {
+    "title": "📝 CrewAI Transcribe Agent - Complete Metrics",
+    "tags": ["crewai", "transcribe", "whisper", "audio"],
+    "timezone": "browser",
+    "schemaVersion": 27,
+    "version": 0,
+    "refresh": "5s",
+    "time": {
+      "from": "now-30m",
+      "to": "now"
+    },
+    "panels": [
+      {
+        "title": "Files Processed",
+        "type": "stat",
+        "gridPos": {"h": 6, "w": 6, "x": 0, "y": 0},
+        "targets": [{
+          "expr": "transcribe_files_processed_total",
+          "refId": "A"
+        }],
+        "options": {
+          "colorMode": "value",
+          "graphMode": "area",
+          "justifyMode": "auto",
+          "orientation": "auto",
+          "reduceOptions": {
+            "values": false,
+            "calcs": ["lastNotNull"],
+            "fields": ""
+          },
+          "textMode": "auto"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": {"mode": "thresholds"},
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {"value": null, "color": "green"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "title": "Files Failed",
+        "type": "stat",
+        "gridPos": {"h": 6, "w": 6, "x": 6, "y": 0},
+        "targets": [{
+          "expr": "transcribe_files_failed_total",
+          "refId": "A"
+        }],
+        "options": {
+          "colorMode": "value",
+          "graphMode": "area",
+          "justifyMode": "auto",
+          "orientation": "auto",
+          "reduceOptions": {
+            "values": false,
+            "calcs": ["lastNotNull"],
+            "fields": ""
+          },
+          "textMode": "auto"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": {"mode": "thresholds"},
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {"value": null, "color": "red"},
+                {"value": 0, "color": "green"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "title": "Active Jobs",
+        "type": "stat",
+        "gridPos": {"h": 6, "w": 6, "x": 12, "y": 0},
+        "targets": [{
+          "expr": "transcribe_active_jobs",
+          "refId": "A"
+        }],
+        "options": {
+          "colorMode": "value",
+          "graphMode": "area",
+          "justifyMode": "auto",
+          "orientation": "auto",
+          "reduceOptions": {
+            "values": false,
+            "calcs": ["lastNotNull"],
+            "fields": ""
+          },
+          "textMode": "auto"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": {"mode": "thresholds"},
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {"value": null, "color": "blue"},
+                {"value": 1, "color": "yellow"},
+                {"value": 2, "color": "orange"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "title": "Queue Depth",
+        "type": "stat",
+        "gridPos": {"h": 6, "w": 6, "x": 18, "y": 0},
+        "targets": [{
+          "expr": "transcribe_queue_depth",
+          "refId": "A"
+        }],
+        "options": {
+          "colorMode": "value",
+          "graphMode": "area",
+          "justifyMode": "auto",
+          "orientation": "auto",
+          "reduceOptions": {
+            "values": false,
+            "calcs": ["lastNotNull"],
+            "fields": ""
+          },
+          "textMode": "auto"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": {"mode": "thresholds"},
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {"value": null, "color": "green"},
+                {"value": 5, "color": "yellow"},
+                {"value": 10, "color": "red"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "title": "Processing Rate (files/min)",
+        "type": "graph",
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 6},
+        "targets": [{
+          "expr": "rate(transcribe_files_processed_total[1m]) * 60",
+          "refId": "A",
+          "legendFormat": "Processed"
+        }, {
+          "expr": "rate(transcribe_files_failed_total[1m]) * 60",
+          "refId": "B",
+          "legendFormat": "Failed"
+        }],
+        "yaxes": [{
+          "format": "short",
+          "label": "Files/min"
+        }, {
+          "format": "short"
+        }],
+        "xaxis": {
+          "show": true
+        },
+        "legend": {
+          "show": true,
+          "values": true,
+          "current": true,
+          "max": true,
+          "min": true
+        }
+      },
+      {
+        "title": "Processing Time (p50, p95, p99)",
+        "type": "graph",
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 6},
+        "targets": [{
+          "expr": "histogram_quantile(0.50, rate(transcribe_processing_time_seconds_bucket[5m]))",
+          "refId": "A",
+          "legendFormat": "p50"
+        }, {
+          "expr": "histogram_quantile(0.95, rate(transcribe_processing_time_seconds_bucket[5m]))",
+          "refId": "B",
+          "legendFormat": "p95"
+        }, {
+          "expr": "histogram_quantile(0.99, rate(transcribe_processing_time_seconds_bucket[5m]))",
+          "refId": "C",
+          "legendFormat": "p99"
+        }],
+        "yaxes": [{
+          "format": "s",
+          "label": "Duration"
+        }, {
+          "format": "short"
+        }],
+        "xaxis": {
+          "show": true
+        },
+        "legend": {
+          "show": true,
+          "values": true,
+          "current": true,
+          "max": true,
+          "min": true
+        }
+      },
+      {
+        "title": "Model Load Events",
+        "type": "stat",
+        "gridPos": {"h": 4, "w": 8, "x": 0, "y": 14},
+        "targets": [{
+          "expr": "transcribe_model_loads_total",
+          "refId": "A"
+        }],
+        "options": {
+          "colorMode": "value",
+          "graphMode": "none",
+          "justifyMode": "auto",
+          "orientation": "auto",
+          "reduceOptions": {
+            "values": false,
+            "calcs": ["lastNotNull"],
+            "fields": ""
+          },
+          "textMode": "auto"
+        }
+      },
+      {
+        "title": "Model Load Time",
+        "type": "stat",
+        "gridPos": {"h": 4, "w": 8, "x": 8, "y": 14},
+        "targets": [{
+          "expr": "transcribe_model_load_time_seconds_sum / transcribe_model_load_time_seconds_count",
+          "refId": "A"
+        }],
+        "options": {
+          "colorMode": "value",
+          "graphMode": "none",
+          "justifyMode": "auto",
+          "orientation": "auto",
+          "reduceOptions": {
+            "values": false,
+            "calcs": ["lastNotNull"],
+            "fields": ""
+          },
+          "textMode": "auto"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "unit": "s"
+          }
+        }
+      },
+      {
+        "title": "Memory Usage",
+        "type": "stat",
+        "gridPos": {"h": 4, "w": 8, "x": 16, "y": 14},
+        "targets": [{
+          "expr": "transcribe_memory_usage_bytes",
+          "refId": "A"
+        }],
+        "options": {
+          "colorMode": "value",
+          "graphMode": "area",
+          "justifyMode": "auto",
+          "orientation": "auto",
+          "reduceOptions": {
+            "values": false,
+            "calcs": ["lastNotNull"],
+            "fields": ""
+          },
+          "textMode": "auto"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "unit": "bytes"
+          }
+        }
+      },
+      {
+        "title": "Total Processing Time",
+        "type": "graph",
+        "gridPos": {"h": 8, "w": 24, "x": 0, "y": 18},
+        "targets": [{
+          "expr": "transcribe_processing_time_seconds_sum",
+          "refId": "A",
+          "legendFormat": "Total Processing Time (cumulative)"
+        }, {
+          "expr": "rate(transcribe_processing_time_seconds_sum[5m])",
+          "refId": "B",
+          "legendFormat": "Processing Time Rate"
+        }],
+        "yaxes": [{
+          "format": "s",
+          "label": "Time"
+        }, {
+          "format": "short"
+        }],
+        "xaxis": {
+          "show": true
+        },
+        "legend": {
+          "show": true,
+          "values": true,
+          "current": true
+        }
+      },
+      {
+        "title": "Job Status Over Time",
+        "type": "graph",
+        "gridPos": {"h": 8, "w": 24, "x": 0, "y": 26},
+        "targets": [{
+          "expr": "transcribe_files_processed_total",
+          "refId": "A",
+          "legendFormat": "Processed (total)"
+        }, {
+          "expr": "transcribe_files_failed_total",
+          "refId": "B",
+          "legendFormat": "Failed (total)"
+        }, {
+          "expr": "transcribe_files_skipped_total",
+          "refId": "C",
+          "legendFormat": "Skipped (total)"
+        }],
+        "yaxes": [{
+          "format": "short",
+          "label": "Count"
+        }, {
+          "format": "short"
+        }],
+        "xaxis": {
+          "show": true
+        },
+        "legend": {
+          "show": true,
+          "values": true,
+          "current": true,
+          "max": true
+        },
+        "stack": false
+      }
+    ]
+  },
+  "overwrite": true
+}

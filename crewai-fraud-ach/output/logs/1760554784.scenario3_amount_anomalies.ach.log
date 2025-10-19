@@ -1,0 +1,3 @@
+Processing /work/input/scenario3_amount_anomalies.ach at 2025-10-15 18:59:44.446089
+SUCCESS: Analyzed 200 transactions in 138.40s
+Output: /work/output/1760554922.scenario3_amount_anomalies.ach.fraud-analysis.json

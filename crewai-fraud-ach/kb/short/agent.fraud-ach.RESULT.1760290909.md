@@ -1,0 +1,47 @@
+```json
+{
+  "id": "542cb70ec207e483",
+  "scope": "agent",
+  "key": "RESULT",
+  "epoch": 1760290909,
+  "host_pid": "9e6742732c60:1",
+  "hash": "943bca9838162fef4bfc8b43915a8524f378a97e4afcd62df5006e1fe2c3233e",
+  "cid": "QmV1943bca9838162fef4bfc8b43915a8524f378a97e",
+  "aicp": {
+    "prov": {
+      "issuer": "9e6742732c60:1",
+      "created_at": 1760290909,
+      "method": "automated_fraud_detection",
+      "vc_type": "VerifiableCredential"
+    },
+    "ucon": {
+      "usage_constraints": [
+        "no_pii_export",
+        "audit_required"
+      ],
+      "purpose": "fraud_detection_analysis",
+      "enforcement": "mandatory"
+    },
+    "eval": {
+      "confidence": 1.0,
+      "evidence_count": 0,
+      "review_status": "pending",
+      "evaluated_at": 1760290909
+    }
+  },
+  "sources": [],
+  "edges": [],
+  "metrics": {},
+  "thresholds": {},
+  "tags": [
+    "fraud",
+    "amount_anomaly",
+    "risk_critical"
+  ],
+  "sig": "67dfa0f3828113ac3a7cb2c68cd4b72e688a539ae653011dc91b1db0a44aa102"
+}
+```
+
+Fraud detected: amount_anomaly (score: 89)
+Transaction: 026009592955504
+Details: {'velocity': {'fraud_detected': True, 'risk_score': 100, 'details': {'transaction_count': 162, 'threshold': 50, 'total_amount': 1384984008, 'amount_threshold': 10000000}}, 'duplicate': {'fraud_detected': True, 'risk_score': 85, 'details': {'duplicate_count': 161, 'first_seen': 1760285765, 'matching_hash': 'e4b1ef1aea3a67a1'}}, 'amount_anomaly': {'fraud_detected': True, 'risk_score': 84, 'details': {'zscore': 4.45, 'mean': 719745.9652321531, 'stdev': 1757577.609495364, 'iqr_bounds': {'lower': -193126.0, 'upper': 787386.0}, 'amount': 8549284}}}

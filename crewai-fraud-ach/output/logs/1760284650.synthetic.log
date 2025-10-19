@@ -1,0 +1,4 @@
+Generating synthetic ACH file at 2025-10-12 11:57:30.306268
+SUCCESS: Generated 50 transactions in 0.00s
+ACH File: ./output/1760284650.synthetic.ach
+Labels: ./output/1760284650.synthetic.labels.json

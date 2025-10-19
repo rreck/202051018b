@@ -1,0 +1,30 @@
+{
+  "run_id": "run_card_testing_1760888551",
+  "fraud_type": "card_testing",
+  "transaction_count": 1000,
+  "fraud_count": 100,
+  "detected_count": 39,
+  "true_positives": 39,
+  "false_positives": 0,
+  "true_negatives": 900,
+  "false_negatives": 61,
+  "accuracy": 0.939,
+  "precision": 1.0,
+  "recall": 0.39,
+  "f1_score": 0.5612,
+  "score_distribution": {
+    "0-25": 942,
+    "26-50": 17,
+    "51-75": 21,
+    "76-100": 20
+  },
+  "pattern_flag_counts": {
+    "card_testing_small_amount": 100,
+    "card_testing_merchant_diversity": 56,
+    "card_testing_mixed_decline_approve": 41,
+    "card_testing_rapid_succession": 20
+  },
+  "processing_time": 0.03738284111022949,
+  "status": "completed",
+  "timestamp": 1760888551
+}

@@ -1,0 +1,6 @@
+[2025-10-12 12:03:45] Added target: fraud-ach-metrics -> localhost:9092
+[2025-10-12 12:03:45] ERROR: Failed to reload Prometheus (PID: 1607
+470657
+876131
+2454357
+2454373)

@@ -1,0 +1,3 @@
+Processing /work/input/scenario5_large_scale.ach at 2025-10-14 22:13:43.478710
+SUCCESS: Analyzed 500 transactions in 94.69s
+Output: /work/output/1760480118.scenario5_large_scale.ach.fraud-analysis.json

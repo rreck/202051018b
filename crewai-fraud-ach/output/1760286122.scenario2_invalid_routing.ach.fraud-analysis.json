@@ -1,0 +1,3918 @@
+{
+  "file": "/work/input/scenario2_invalid_routing.ach",
+  "analyzed_at": "2025-10-12T16:22:02.060125",
+  "transaction_count": 150,
+  "fraud_detected_count": 150,
+  "fraud_results": [
+    {
+      "transaction_id": "111000020453252",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "round_amount_pattern"
+      ],
+      "risk_score": 62,
+      "risk_level": "high",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "94693ae2b8a79c3a"
+          }
+        },
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 500000
+          }
+        }
+      },
+      "timestamp": 1760286116
+    },
+    {
+      "transaction_id": "026009592950397",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 76,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 139599960,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "5b23ebe5172c1d5f"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 75,
+          "details": {
+            "zscore": 3.53,
+            "mean": 1373847.7,
+            "stdev": 2245589.6016213675,
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 9306664
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "021000021703881",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 71,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 96981300,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "20cca8b4db3b5ffd"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 60,
+          "details": {
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 6465420
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "021000028645436",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "round_amount_pattern"
+      ],
+      "risk_score": 62,
+      "risk_level": "high",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "6242cc5f185f73d7"
+          }
+        },
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 500000
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "026009593711895",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "1e7ea83d54912238"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "929669860929959",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "bbfcfb9a6aef8521"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "929669867",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "031201464951398",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "40dace0dcec07d54"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "044000037990803",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "be616144f18eac0b"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "031201467541453",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "round_amount_pattern"
+      ],
+      "risk_score": 62,
+      "risk_level": "high",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "2d82340c3dc0e840"
+          }
+        },
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 500000
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "121000242021792",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "6b62929422267286"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "026009596228343",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "964edcfaddb10414"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "031201460208894",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "36d88bd4e0ec214b"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "063100278201542",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "ee525b8c336c7bb1"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "031201463068676",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "round_amount_pattern"
+      ],
+      "risk_score": 65,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 15000000,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "d6ede686f4e8ff6a"
+          }
+        },
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 1000000
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "121000241272290",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "ac7868cb6249fe41"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "063100272156319",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "6d26908715188c7a"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "122105154236496",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "2022d9adcee53cdf"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "261425243879882",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "bea146cfc71ce9bb"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "261425248",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "021000021072241",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 77,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 144839415,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "ac02650f27bf80d6"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 76,
+          "details": {
+            "zscore": 3.69,
+            "mean": 1373847.7,
+            "stdev": 2245589.6016213675,
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 9655961
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "294015856728576",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "68167a889af65895"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "294015854",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "122105158436711",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "839de208acaae015"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "031201468983209",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "c1a39c32a70f5fe9"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "031201462098783",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "4ea38d6416e4381e"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "044000033919598",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "1dbf667d29bdf8b7"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "122105150868994",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "612406b6271445a9"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "111000025810032",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "4a1b4df87be22a11"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "063100274159227",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "c6403d45da933f2b"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "063100276193597",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "c482c58c8f3e1991"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "864091464204372",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "74f25dd839f89a8f"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "864091464",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "026009598639172",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "9f277109cf79f7ea"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "111000027962561",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "3395f05250aaaeda"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "408733730305741",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "77eebc6eb9f79eeb"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "408733730",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286117
+    },
+    {
+      "transaction_id": "021000023218255",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "1151ecc015fd8f1a"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "122105154786749",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "09892425b2f11015"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "021000025159939",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "bd88da65ef85df29"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "121000246128124",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "d8f9033e4ee0a57f"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "111000023922367",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 71,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 89346135,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "420dc08dc8ad4808"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 60,
+          "details": {
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 5956409
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "730896563459202",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "b6a475fea2d998c5"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "730896563",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "026009593402675",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "1478dad6bc2a5e7e"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "063100270157641",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "c979b8e092a32979"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "111000022225777",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "9e191c483430cef0"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "021000024856185",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 71,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 107353935,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "03b6a41c39a9a2ab"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 60,
+          "details": {
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 7156929
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "111000025654087",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "431eabbdd05dc2b1"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "031201469028209",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "a4269a968e85dafe"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "121000244516225",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "305c81c4ba1c9c62"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "031201466882033",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "7e4548b1f8f2bba3"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "021000022338434",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "4c9dfd860457308a"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "361190719534797",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "0d1ced523145a886"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "361190711",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "021000022356059",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "fa8ad4fa6a79b6e4"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "244096993316032",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "b69a4a680810c6df"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "244096997",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "021000022866819",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "7f3c5046f4bcc1d0"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "063100279336195",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "bc4c468b17fbec63"
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "044000036587475",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 71,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 115423620,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "7583721e7662209c"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 60,
+          "details": {
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 7694908
+          }
+        }
+      },
+      "timestamp": 1760286118
+    },
+    {
+      "transaction_id": "063100277559927",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "07b51054ae5371fb"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "031201469776996",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "22919e1176d7109e"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "111000027419247",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "f49fdb64c00c5aec"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "031201466107420",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "b2544ae352aa282b"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "111000029921508",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "c334adb3999837f9"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "122105157761036",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "6f087e4012bb31a6"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "122105154543608",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "3d9c367e54a48e12"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "122105150872647",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 71,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 108140490,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "f142eb53d77ea00a"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 60,
+          "details": {
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 7209366
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "044000031959136",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "f67377943b0624b0"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "121000249881393",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "72e20928773d23d6"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "031201464280863",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "89fc487441475897"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "026009596892918",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "c247331c92498799"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "063100274851410",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "05e1730ec720465d"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "021000023531334",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "62f48a4bdb5932df"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "121000241647784",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "5747783cddc76b25"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "041887157928370",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "40835df504bb3fdd"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "041887155",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "122105155862167",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "207d73478b089b6e"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "063100270759086",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "eb79951538526d2c"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "021000020120978",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "55bccccaf90262bb"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "031201463967385",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "becd1833b82f29ed"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "036223731470664",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "119e459cb2bfe689"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "036223730",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "026009590072118",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "08ae7d6de60ae5f3"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "121000242172457",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "180325de6151a8c9"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "044000037838000",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "ae4ad01d54e54763"
+          }
+        }
+      },
+      "timestamp": 1760286119
+    },
+    {
+      "transaction_id": "026009596116036",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "e2bf4d89584c6445"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "111000022758137",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "round_amount_pattern"
+      ],
+      "risk_score": 62,
+      "risk_level": "high",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "98fae2ebc6a98bc5"
+          }
+        },
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 500000
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "031201463206672",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "e7b1640c0f17a3db"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "950960749969543",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "b177ff0c3b4ad29b"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "950960749",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "021000024298856",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "c651031c314af1fc"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "044000032341010",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "f26a81694d784881"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "021000028760265",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "ff1172b8afcaa4bc"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "111000023855884",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 76,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 141163335,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "29f4fac8ca9c8442"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 75,
+          "details": {
+            "zscore": 3.58,
+            "mean": 1373847.7,
+            "stdev": 2245589.6016213675,
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 9410889
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "069024451692491",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "560f842b4bd5b95e"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "069024457",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "122105157190044",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "3b9549cbaaa9aa1e"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "031201462917660",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "3c31ab634de6a3e3"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "244890024234480",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "a93bcfd9fdd9d60c"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "244890022",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "044000032343156",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "974122e869180765"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "111000025853793",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "ff3a3f7dec7a702a"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "646437634699290",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285763,
+            "matching_hash": "d218c468aa26fc36"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "646437635",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "824845893834283",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "751a36f41382ae06"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "824845890",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "542300578273472",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "6580c6d1de434ae0"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "542300570",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "031201462755939",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "0ef039381f9434ef"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "111000025319716",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "46cae66c8ff70b91"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "121000243661505",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "37851bbce8ea73db"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "044000032147418",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "7eb9a0fe320f28ac"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "121000247026993",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "7c7d13001f766fd7"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "121000241906665",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "6ca698820fae5f27"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "026009593536261",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 71,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 103329210,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "ca8349fc21f82b4d"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 60,
+          "details": {
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 6888614
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "021000028707079",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 71,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 102748155,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "67ae9df98d5fdee3"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 60,
+          "details": {
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 6849877
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "044000034911436",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "round_amount_pattern"
+      ],
+      "risk_score": 65,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 15000000,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "1d19315b18550df6"
+          }
+        },
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 1000000
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "063100277645862",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 71,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 97671675,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "c7c729dc286039c9"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 60,
+          "details": {
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 6511445
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "026009591320033",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 71,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 120782730,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "73d2316250f00dec"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 60,
+          "details": {
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 8052182
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "304701772219564",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "19ec134c2c5b9271"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "304701776",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "044000033750281",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "57e27cf175445fc0"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "063100272276410",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "97f823784b1b19f6"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "121000240623413",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "round_amount_pattern"
+      ],
+      "risk_score": 62,
+      "risk_level": "high",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "b41427cac750dd0e"
+          }
+        },
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 500000
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "614505621863127",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "8748c624c8dfcb5e"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "614505622",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "026009598883007",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 77,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 143194755,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "3affdb087741de2d"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 76,
+          "details": {
+            "zscore": 3.64,
+            "mean": 1373847.7,
+            "stdev": 2245589.6016213675,
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 9546317
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "021000023603818",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "07334b550f79eb68"
+          }
+        }
+      },
+      "timestamp": 1760286120
+    },
+    {
+      "transaction_id": "031201463060709",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "9043a83188003850"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "026009596363200",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "b9f8fedd6c477a32"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "021000021988031",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "88465ad333807d91"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "121000246089162",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 76,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 134142330,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "13ee20e814facee3"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 73,
+          "details": {
+            "zscore": 3.37,
+            "mean": 1373847.7,
+            "stdev": 2245589.6016213675,
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 8942822
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "026009593654177",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "5fbc310f1a1fe9dc"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "122105153448153",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "55db9843fa0daece"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "111000023390591",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "65b6a0d7e3017724"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "021000021715081",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "0ea9b1b5c7891ffe"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "044000032976698",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "b86b53820ba813a1"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "121000243431079",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "441814efc7e72dab"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "111000022658248",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 76,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 140708850,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "6b9326523c35dc7b"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 75,
+          "details": {
+            "zscore": 3.57,
+            "mean": 1373847.7,
+            "stdev": 2245589.6016213675,
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 9380590
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "031201461801118",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "75b6b5cd12274a09"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "121000248255202",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "c66fc0c5e7caab92"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "021000026701294",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "c6488d75609f0f90"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "031201467071616",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "cbd6f8586f75cfb9"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "111000020782458",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 75,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 128935680,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "09f46afbb4d14766"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 72,
+          "details": {
+            "zscore": 3.22,
+            "mean": 1373847.7,
+            "stdev": 2245589.6016213675,
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 8595712
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "063100274521172",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "cfb56b896e519b42"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "031201465580268",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "af9caaaec8320bfb"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "111000028289114",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "2ad1c8bf27fe5526"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "063100275656907",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 71,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 103387035,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "3d5aab5dd753a251"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 60,
+          "details": {
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 6892469
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "021000029420003",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 71,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 99038550,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "37b4044b8dabc650"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 60,
+          "details": {
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 6602570
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "031201464749166",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "2c72b457e71ecad2"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "691661796885470",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "c2d09785100b76ca"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "691661790",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "021000028384993",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "07aae5a269425bd8"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "728187407566692",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "1da2d57caa7d5158"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "728187403",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "122105152842303",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "round_amount_pattern"
+      ],
+      "risk_score": 62,
+      "risk_level": "high",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285764,
+            "matching_hash": "f130ef58b190a1ab"
+          }
+        },
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 500000
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "044000038318648",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285765,
+            "matching_hash": "13d51597e8ec53d0"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "121000242854691",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285765,
+            "matching_hash": "6f29fe2a1ce5e88d"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "111000024392225",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285765,
+            "matching_hash": "c2833deea8e214b7"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "051442861806700",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285765,
+            "matching_hash": "36501cb7899f5f80"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "051442869",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "118929074583077",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285765,
+            "matching_hash": "9c7c32bd8fa37035"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "118929079",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "021000020489818",
+      "fraud_detected": true,
+      "fraud_types": [
+        "velocity_attack",
+        "duplicate_transaction",
+        "amount_anomaly"
+      ],
+      "risk_score": 75,
+      "risk_level": "high",
+      "details": {
+        "velocity": {
+          "fraud_detected": true,
+          "risk_score": 70,
+          "details": {
+            "total_amount": 126526875,
+            "amount_threshold": 10000000
+          }
+        },
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285765,
+            "matching_hash": "b3efe19f99a87213"
+          }
+        },
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 71,
+          "details": {
+            "zscore": 3.14,
+            "mean": 1373847.7,
+            "stdev": 2245589.6016213675,
+            "iqr_bounds": {
+              "lower": -2106683.5,
+              "upper": 4084502.5
+            },
+            "amount": 8435125
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "063100279745557",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285765,
+            "matching_hash": "46b84f4cf2bc4bde"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "026009595526763",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285765,
+            "matching_hash": "4e9c09a811d09ae3"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "649278780553328",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285765,
+            "matching_hash": "c666b8c882e80c0b"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "649278788",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "063100277234112",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction"
+      ],
+      "risk_score": 85,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285765,
+            "matching_hash": "11106d4d9e5d055e"
+          }
+        }
+      },
+      "timestamp": 1760286121
+    },
+    {
+      "transaction_id": "031201463963144",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "round_amount_pattern"
+      ],
+      "risk_score": 62,
+      "risk_level": "high",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285765,
+            "matching_hash": "4b7135c5b7384c49"
+          }
+        },
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 500000
+          }
+        }
+      },
+      "timestamp": 1760286122
+    },
+    {
+      "transaction_id": "886156735269080",
+      "fraud_detected": true,
+      "fraud_types": [
+        "duplicate_transaction",
+        "invalid_routing"
+      ],
+      "risk_score": 90,
+      "risk_level": "critical",
+      "details": {
+        "duplicate": {
+          "fraud_detected": true,
+          "risk_score": 85,
+          "details": {
+            "duplicate_count": 14,
+            "first_seen": 1760285765,
+            "matching_hash": "bf20bb751245cb05"
+          }
+        },
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "886156735",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760286122
+    }
+  ],
+  "engine_statistics": {
+    "total_transactions_analyzed": 24002,
+    "fraud_type_counts": {},
+    "unique_accounts": 1400,
+    "unique_routing_numbers": 102,
+    "amount_statistics": {
+      "mean": 1373847.7,
+      "median": 373364.0,
+      "stdev": 2245589.6016213675,
+      "q1": 215011.25,
+      "q3": 1762807.75,
+      "min": 130322,
+      "max": 5663035,
+      "count": 10
+    },
+    "detection_config": {
+      "velocity_max_transactions": 50,
+      "velocity_window_days": 7.0,
+      "duplicate_window_hours": 24.0,
+      "zscore_threshold": 3.0
+    }
+  }
+}

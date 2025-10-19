@@ -1,0 +1,4023 @@
+{
+  "file": "/work/input/scenario4_mixed_fraud.ach",
+  "analyzed_at": "2025-10-12T16:16:30.746518",
+  "transaction_count": 300,
+  "fraud_detected_count": 58,
+  "fraud_results": [
+    {
+      "transaction_id": "021000029996971",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "987899138590267",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "987899137",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201463734572",
+      "fraud_detected": true,
+      "fraud_types": [
+        "round_amount_pattern"
+      ],
+      "risk_score": 40,
+      "risk_level": "medium",
+      "details": {
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 500000
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "580123061332551",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "580123066",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009591034480",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000244267355",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "561028999821965",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "561028991",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000024544859",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201467386779",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000038073979",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000034128514",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "530764332360017",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "530764331",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000024041930",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 42.61,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 7365830
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "701651307465811",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "701651308",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100271879965",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000249862639",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "667325182164908",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "667325181",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201464670752",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100278947252",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000038823890",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000244346820",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000247483978",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201469258561",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000033242654",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "568426902254568",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "568426909",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100270696369",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000021760547",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100277570300",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105152477967",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000248569332",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000029518652",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000025310959",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 44.16,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 7623976
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105155093747",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105150128981",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201463227855",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 53.28,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 9144651
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "398958456380794",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "398958456",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000028341368",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 49.67,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 8542478
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105152274101",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "085520768954692",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "085520764",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009591362528",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000027318988",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 28.64,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 5035466
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100273161862",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly",
+        "round_amount_pattern"
+      ],
+      "risk_score": 62,
+      "risk_level": "high",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 84,
+          "details": {
+            "zscore": 4.45,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 1000000
+          }
+        },
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 1000000
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105154932354",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201466146132",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000249175658",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105157097598",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000022691878",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009592351032",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000029133644",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "013419647478508",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "013419643",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009596228885",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000024088542",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000022915367",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201464854698",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100273476886",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105154811722",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 43.38,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 7493680
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000247162231",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105158843417",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 45.54,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 7854285
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009594828050",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly",
+        "round_amount_pattern"
+      ],
+      "risk_score": 62,
+      "risk_level": "high",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 84,
+          "details": {
+            "zscore": 4.45,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 1000000
+          }
+        },
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 1000000
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000029709484",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201460204606",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201465065641",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 35.4,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 6161479
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100270720281",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 53.83,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 9237211
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "868351858992484",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "868351851",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009593787585",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000022330150",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000240863608",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100271403003",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000039326834",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105150168984",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000028841300",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201466383232",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105150546450",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000029122182",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000029303857",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105151540950",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000249758260",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201469691170",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105155084324",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 39.67,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 6875376
+          }
+        }
+      },
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000025664709",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "182683956982385",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "182683957",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000033971595",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009590642445",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000026797438",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "472304306013162",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "472304300",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000033386526",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009591397699",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201465523405",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201465236749",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000021151885",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000249232395",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000030505524",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000244248906",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000024762963",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105154361187",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105159610548",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201465557479",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 38.42,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 6665760
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "020899457068496",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "020899456",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000242260871",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201465723283",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000032483239",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 53.88,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 9245331
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000024843981",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000027669266",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000244807015",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000247599870",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000245124241",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000026930485",
+      "fraud_detected": true,
+      "fraud_types": [
+        "round_amount_pattern"
+      ],
+      "risk_score": 40,
+      "risk_level": "medium",
+      "details": {
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 500000
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201464168260",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000033129377",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000025025802",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 46.53,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 8018325
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105151550703",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000240263900",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105158691889",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000037688830",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000029744317",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201469153369",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "503193792297075",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "503193790",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000023914154",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201461386979",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000246406835",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000024487889",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000021906357",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000026198505",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100276380856",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201468482875",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100279304140",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105154787030",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "098545588857560",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "098545585",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000244210031",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000021412484",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105150046055",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000248536916",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000029588067",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201461947560",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000024763111",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105153839048",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000022243585",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000244206130",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000031437397",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000026472141",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105155324238",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000246379487",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201462613659",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 35.5,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 6178432
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000039408811",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000242903308",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009598551005",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105155063461",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009590136300",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100273021249",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009598880520",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009595557022",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201462989366",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000020823686",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009598774484",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000026959997",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "529024316192383",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "529024315",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000027737863",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000247259111",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201464866805",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100279312604",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "443655357779767",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "443655354",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105157192911",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100271109324",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000032365153",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105157518284",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000027363246",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105152772165",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "442437642525688",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "442437646",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000242680908",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000026169646",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105153734827",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000026682072",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "650095542347097",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "650095545",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000245112669",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000027541214",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105157479316",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100273353772",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly",
+        "round_amount_pattern"
+      ],
+      "risk_score": 62,
+      "risk_level": "high",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 84,
+          "details": {
+            "zscore": 4.45,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 1000000
+          }
+        },
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 1000000
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000029384681",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105154971432",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "834096557545062",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "834096558",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "053611743401753",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "053611749",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100274458495",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000248509249",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100275692414",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 31.51,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 5513113
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000248887344",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100272098114",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000028058978",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000243890645",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100278705813",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105159813222",
+      "fraud_detected": true,
+      "fraud_types": [
+        "round_amount_pattern"
+      ],
+      "risk_score": 40,
+      "risk_level": "medium",
+      "details": {
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 500000
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000027931714",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100277826130",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201468078455",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105152187504",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000023633805",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009592616863",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201461577963",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000245569369",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000029664164",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009599876575",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000024242004",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100271976362",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000034245036",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 44.88,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 7743228
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000032200831",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000242027891",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000023745358",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009592366893",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000023924602",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000020380567",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000026466423",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000029769834",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105152345106",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000026450261",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 37.31,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 6481360
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201467602006",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000037779899",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000243367348",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105150565846",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201466272908",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201468454923",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000023759733",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000031749582",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 36.08,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 6276049
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000021222877",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000039343574",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100272268645",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100278613406",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000020288859",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000024587821",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "818309298369568",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "818309298",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201469533124",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105155376461",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105152597197",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000025260373",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000022029056",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201467519914",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009591273341",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009598219019",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009594679703",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000021533630",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100274446776",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000245537248",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000039215537",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000245808112",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009596811195",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000028490637",
+      "fraud_detected": true,
+      "fraud_types": [
+        "round_amount_pattern"
+      ],
+      "risk_score": 40,
+      "risk_level": "medium",
+      "details": {
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 500000
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "880809096286836",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "880809095",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009592955504",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 49.71,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 8549284
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "906924177607497",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "906924178",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105157447901",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100276148173",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009595235556",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000027783297",
+      "fraud_detected": true,
+      "fraud_types": [
+        "round_amount_pattern"
+      ],
+      "risk_score": 40,
+      "risk_level": "medium",
+      "details": {
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 500000
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000244317854",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000024639540",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 44.45,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 7672042
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105155421893",
+      "fraud_detected": true,
+      "fraud_types": [
+        "amount_anomaly"
+      ],
+      "risk_score": 100,
+      "risk_level": "critical",
+      "details": {
+        "amount_anomaly": {
+          "fraud_detected": true,
+          "risk_score": 100,
+          "details": {
+            "zscore": 28.81,
+            "mean": 257136.1,
+            "stdev": 166812.44234332294,
+            "iqr_bounds": {
+              "lower": -401016.875,
+              "upper": 959042.125
+            },
+            "amount": 5062727
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "039274533993332",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "039274537",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100271240415",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201467395210",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000021395098",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100277678125",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000034981344",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000036830266",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "870312149939109",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "870312145",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105158176118",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000025207502",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105158912506",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000038959082",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201461436182",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201467837924",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009597785743",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000022074928",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105157067764",
+      "fraud_detected": true,
+      "fraud_types": [
+        "round_amount_pattern"
+      ],
+      "risk_score": 40,
+      "risk_level": "medium",
+      "details": {
+        "round_amount": {
+          "fraud_detected": true,
+          "risk_score": 40,
+          "details": {
+            "pattern": "exact_thousands",
+            "amount": 500000
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000027064013",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "789209528183836",
+      "fraud_detected": true,
+      "fraud_types": [
+        "invalid_routing"
+      ],
+      "risk_score": 95,
+      "risk_level": "critical",
+      "details": {
+        "routing": {
+          "fraud_detected": true,
+          "risk_score": 95,
+          "details": {
+            "routing_number": "789209527",
+            "validation_error": "Invalid routing number checksum"
+          }
+        }
+      },
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000026132147",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201460464182",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201467867880",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100279970164",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000029163318",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105158219859",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000020048209",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000022148998",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000241978752",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "031201468256911",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000249337095",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100270534223",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000244797937",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000034053694",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000027745016",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000029313979",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000243177921",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000245329334",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009598290210",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "111000021748494",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "044000037157781",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009599036440",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "121000245381675",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "021000029578937",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "122105155616727",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "026009594711181",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    },
+    {
+      "transaction_id": "063100278681806",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285790
+    }
+  ],
+  "engine_statistics": {
+    "total_transactions_analyzed": 1260,
+    "fraud_type_counts": {},
+    "unique_accounts": 1260,
+    "unique_routing_numbers": 92,
+    "amount_statistics": {
+      "mean": 257136.1,
+      "median": 191919.5,
+      "stdev": 166812.44234332294,
+      "q1": 109005.25,
+      "q3": 449020.0,
+      "min": 77684,
+      "max": 486786,
+      "count": 10
+    },
+    "detection_config": {
+      "velocity_max_transactions": 50,
+      "velocity_window_days": 7.0,
+      "duplicate_window_hours": 24.0,
+      "zscore_threshold": 3.0
+    }
+  }
+}

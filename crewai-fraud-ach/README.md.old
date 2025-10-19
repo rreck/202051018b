@@ -1,0 +1,563 @@
+# CrewAI ACH Fraud Detection Agent — v1.0.0
+
+**Architecture:** Ronald P. Reck
+**Copyright (c) RRECKTEK LLC**
+
+An intelligent ACH/NACHA transaction fraud detection agent with biomimicry-driven persistent memory, synthetic data generation capabilities, and comprehensive monitoring integration.
+
+## 🚀 Features
+
+- **ACH/NACHA Format Support**: Full parser and generator for NACHA fixed-width format (94-char records)
+- **Multi-Strategy Fraud Detection**:
+  - **Velocity attacks**: Transaction rate limits per account/routing (τ=7d window)
+  - **Duplicate detection**: Hash-based duplicate transaction identification
+  - **Amount anomalies**: Statistical outlier detection (Z-score, IQR)
+  - **Routing validation**: ABA routing number checksum validation
+  - **Pattern recognition**: Round amounts, sequential IDs, off-hours batches
+  - **OFAC simulation**: Sanctioned entity screening
+- **Risk Scoring**: 0-100 scale with configurable thresholds (low/medium/high/critical)
+- **Synthetic ACH Data Generation**: Create labeled training data with fraud scenarios
+- **Biomimicry Memory System**:
+  - Provenance tracking with cryptographic signatures
+  - Weighted edge tracking with time-based decay (λ=0.01/day)
+  - Emergent CLUSTER/SYNTHESIS/META/ECHO/CONSENSUS artifacts
+  - kb/short (≤64KB) and kb/long (≤512KB) storage
+- **A2A API Integration**: Standard CrewAI agent endpoints for remote control
+- **Prometheus Metrics**: Comprehensive monitoring with fraud-specific metrics
+- **Grafana Dashboard**: Pre-built dashboard with fraud analytics
+- **Daemon & Watch Modes**: Background service or continuous monitoring
+
+## 📋 Quick Start
+
+```bash
+# Build and start daemon mode
+cd crewai-fraud-ach
+./run-fraud-ach-watch.sh build
+./run-fraud-ach-watch.sh daemon
+
+# Check status
+./run-fraud-ach-watch.sh status
+./run-fraud-ach-watch.sh health
+
+# Generate synthetic ACH data with fraud patterns
+./run-fraud-ach-watch.sh generate --transactions 200 --fraud-ratio 0.10
+
+# Process ACH files for fraud detection
+./run-fraud-ach-watch.sh trigger-batch
+```
+
+## 📁 Directory Structure
+
+```
+crewai-fraud-ach/
+├── input/                          # ACH files for analysis
+│   └── sample_payroll.ach          # Example legitimate payroll batch
+├── output/                         # Fraud analysis results
+│   ├── *.fraud-analysis.json       # Detection results with risk scores
+│   ├── *.synthetic.ach             # Generated synthetic ACH files
+│   ├── *.synthetic.labels.json     # Fraud labels for synthetic data
+│   └── logs/                       # Processing logs and job cache
+├── kb/                             # Biomimicry memory system
+│   ├── short/                      # Atomic memory artifacts (≤64KB)
+│   └── long/                       # Rollup/emergent artifacts (≤512KB)
+├── app/
+│   ├── main.py                     # Core agent
+│   ├── ach_schema.py               # NACHA format parser/generator
+│   ├── fraud_engine.py             # Multi-strategy fraud detection
+│   └── memory_system.py            # Biomimicry memory implementation
+├── metrics/
+│   ├── fraud-ach-dashboard.json    # Grafana dashboard definition
+│   └── prometheus.yml              # Prometheus scrape configuration
+├── Dockerfile                      # Container build definition
+├── run-fraud-ach-watch.sh          # Container management script
+├── requirements.txt                # Python dependencies
+└── README.md
+```
+
+## 🔧 Configuration
+
+### Environment Variables
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `INPUT_DIR` | `./input` | Directory containing ACH files |
+| `OUTPUT_DIR` | `./output` | Directory for fraud analysis results |
+| `KB_DIR` | `./kb` | Knowledge base for memory artifacts |
+| `API_PORT` | `8080` | A2A API server port |
+| `METRICS_PORT` | `9090` | Prometheus metrics server port |
+| `PIDFILE` | `/var/run/fraud-ach-agent.pid` | PID file for daemon mode |
+
+### Container Ports
+
+- **8080**: A2A API endpoints (health, job submission, batch processing)
+- **9090**: Prometheus metrics (`/metrics` endpoint)
+
+## 🖥️ Usage
+
+### Container Management
+
+```bash
+# Start daemon mode (background service)
+./run-fraud-ach-watch.sh daemon
+
+# Start watch mode (foreground, Ctrl-C to stop)
+./run-fraud-ach-watch.sh watch
+
+# One-shot batch processing
+./run-fraud-ach-watch.sh batch
+
+# Generate synthetic ACH data
+./run-fraud-ach-watch.sh generate --transactions 200 --fraud-ratio 0.10
+
+# Check status and health
+./run-fraud-ach-watch.sh status
+./run-fraud-ach-watch.sh health
+
+# View logs
+./run-fraud-ach-watch.sh logs
+./run-fraud-ach-watch.sh logs -f  # Follow logs
+
+# Stop/restart container
+./run-fraud-ach-watch.sh stop
+./run-fraud-ach-watch.sh restart
+```
+
+### Direct Python Usage
+
+```bash
+# Inside container or with local Python setup
+python3 main.py --help
+
+# Fraud detection examples
+python3 main.py -i ./input -o ./output -k ./kb                  # Batch mode
+python3 main.py -w -s 10                                        # Watch every 10 seconds
+python3 main.py --daemon --api-port 8080                        # Daemon mode
+python3 main.py -f                                              # Force reprocessing
+
+# Synthetic data generation
+python3 main.py --generate --transactions 200 --fraud-ratio 0.10
+```
+
+## 🔌 Agent-to-Agent (A2A) API
+
+The agent provides HTTP endpoints for integration with other agents and automation workflows.
+
+### API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/health` | Health check |
+| `GET` | `/status` | Get agent status and metrics |
+| `GET` | `/config` | Get current configuration |
+| `POST` | `/job` | Process specific ACH file |
+| `POST` | `/batch` | Trigger batch processing |
+
+### Examples
+
+```bash
+# Health check
+curl http://localhost:8080/health
+
+# Get status and metrics
+curl http://localhost:8080/status | jq
+
+# Process specific ACH file
+curl -X POST http://localhost:8080/job \
+  -H "Content-Type: application/json" \
+  -d '{
+    "file_path": "/work/input/transactions.ach",
+    "force": false
+  }'
+
+# Trigger batch processing
+curl -X POST http://localhost:8080/batch \
+  -H "Content-Type: application/json" \
+  -d '{"force": false}'
+```
+
+### Using the management script
+
+```bash
+# Submit job via script
+./run-fraud-ach-watch.sh job /work/input/transactions.ach
+
+# Trigger batch processing
+./run-fraud-ach-watch.sh trigger-batch
+```
+
+## 🎯 Fraud Detection Strategies
+
+### 1. Velocity Attack Detection
+Monitors transaction rates per account within τ=7d rolling window:
+- **Max transactions**: 50 per account per week
+- **Max amount**: $100,000 total per account per week
+- **Risk score**: 50+ (increases with excess)
+
+### 2. Duplicate Transaction Detection
+Hash-based duplicate detection within 24-hour window:
+- Exact match on: routing, account, amount, transaction code, name
+- **Risk score**: 85
+
+### 3. Amount Anomaly Detection
+Statistical outlier detection using Z-score and IQR methods:
+- **Z-score threshold**: ±3.0 standard deviations
+- **IQR multiplier**: 1.5
+- **Minimum samples**: 10 historical transactions
+- **Risk score**: 40-100 (scaled by deviation)
+
+### 4. Routing Number Validation
+ABA routing number checksum validation:
+- Formula: `3*(d1+d4+d7) + 7*(d2+d5+d8) + (d3+d6+d9) mod 10 = 0`
+- **Risk score**: 95 for invalid routing
+
+### 5. Round Amount Pattern
+Detects suspiciously round amounts (≥$50):
+- Exactly $1000, $500, $100 multiples
+- **Risk score**: 20-40
+
+### 6. Off-Hours Batch Detection
+Flags batches submitted during unusual hours:
+- **Off-hours window**: Midnight to 6 AM
+- **Risk score**: 35
+
+### 7. OFAC Screening (Simulated)
+Keyword-based sanctioned entity screening:
+- Matches: SANCTIONED, BLOCKED, TERRORIST, EMBARGO, PROHIBITED
+- **Risk score**: 100
+
+## 📊 ACH/NACHA Format Reference
+
+### Record Types
+
+| Type | Description | Position |
+|------|-------------|----------|
+| **1** | File Header | First record |
+| **5** | Batch Header | Start of each batch |
+| **6** | Entry Detail | Individual transactions |
+| **7** | Addenda | Optional additional data |
+| **8** | Batch Control | End of each batch |
+| **9** | File Control | Last record |
+
+### Transaction Codes
+
+| Code | Description |
+|------|-------------|
+| **22** | Checking Account Credit (deposit) |
+| **27** | Checking Account Debit (withdrawal) |
+| **32** | Savings Account Credit |
+| **37** | Savings Account Debit |
+| **23/28** | Checking Prenote Credit/Debit |
+| **33/38** | Savings Prenote Credit/Debit |
+
+### Standard Entry Class (SEC) Codes
+
+| Code | Description |
+|------|-------------|
+| **PPD** | Prearranged Payment and Deposit (consumer) |
+| **CCD** | Corporate Credit or Debit |
+| **CTX** | Corporate Trade Exchange |
+| **WEB** | Internet-Initiated Entry |
+| **TEL** | Telephone-Initiated Entry |
+| **POS** | Point of Sale |
+
+## 🧠 Biomimicry Memory System
+
+### Memory Artifact Types
+
+| KEY | Purpose | Storage | Size Limit |
+|-----|---------|---------|------------|
+| **IDEA** | Initial fraud pattern observation | kb/short | 64 KB |
+| **TASK** | Detection task definition | kb/short | 64 KB |
+| **PROBLEM** | Identified fraud issue | kb/short | 64 KB |
+| **ACTION** | Detection action taken | kb/short | 64 KB |
+| **RESULT** | Fraud detection result | kb/short | 64 KB |
+| **LESSON** | Learned pattern | kb/short | 64 KB |
+| **CLUSTER** | Grouped fraud patterns (≥5 sources, w≥0.6) | kb/long | 512 KB |
+| **SYNTHESIS** | Cross-cluster analysis (≥2 clusters, JS≤0.25) | kb/long | 512 KB |
+| **META** | Meta-rules for detection | kb/long | 512 KB |
+| **ECHO** | Pattern replay analysis | kb/long | 512 KB |
+| **CONSENSUS** | Validated fraud pattern (≥67% quorum) | kb/long | 512 KB |
+
+### JSON Header Format
+
+Every memory artifact contains a JSON header block:
+
+```json
+{
+  "id": "fraud-ach-RESULT-1697234567",
+  "scope": "agent",
+  "key": "RESULT",
+  "epoch": 1697234567,
+  "host_pid": "hostname:12345",
+  "hash": "sha256:abc123...",
+  "cid": "QmV1abc123...",
+  "aicp": {
+    "prov": {
+      "issuer": "hostname:12345",
+      "created_at": 1697234567,
+      "method": "automated_fraud_detection",
+      "vc_type": "VerifiableCredential"
+    },
+    "ucon": {
+      "usage_constraints": ["no_pii_export", "audit_required"],
+      "purpose": "fraud_detection_analysis",
+      "enforcement": "mandatory"
+    },
+    "eval": {
+      "confidence": 1.0,
+      "evidence_count": 3,
+      "review_status": "pending",
+      "evaluated_at": 1697234567
+    }
+  },
+  "sources": ["source-id-1", "source-id-2"],
+  "edges": [
+    {"source_id": "A", "target_id": "B", "weight": 0.75, "edge_type": "reference"}
+  ],
+  "metrics": {"source_count": 2, "average_weight": 0.75},
+  "thresholds": {},
+  "tags": ["fraud", "velocity_attack", "risk_high"],
+  "sig": "hmac-sha256:xyz789..."
+}
+```
+
+### Weight Decay & Reinforcement
+
+- **Weight decay**: λ = 0.01/day, `w_new = w_old * (1 - 0.01 * days)`
+- **Co-occurrence window**: τ = 7 days
+- **Weight range**: [0.0, 1.0] (clipped)
+- **Reinforcement**: +0.1 on repeated pattern detection
+
+## 📊 Prometheus Metrics
+
+Access metrics at `http://localhost:9090/metrics`
+
+### Available Metrics
+
+| Metric | Type | Description |
+|--------|------|-------------|
+| `fraud_ach_files_processed_total` | Counter | ACH files successfully processed |
+| `fraud_ach_files_failed_total` | Counter | ACH files that failed processing |
+| `fraud_ach_transactions_analyzed_total` | Counter | Total transactions analyzed |
+| `fraud_ach_fraud_detected_total` | Counter | Total fraud instances detected |
+| `fraud_ach_fraud_by_type{type}` | Counter | Fraud detections by type label |
+| `fraud_ach_memory_artifacts_total` | Counter | Memory artifacts created |
+| `fraud_ach_daemon_uptime_seconds` | Gauge | Agent uptime |
+
+### Grafana Dashboard
+
+Import the included dashboard JSON (`metrics/fraud-ach-dashboard.json`) for:
+- **Files Processed**: Total ACH files analyzed
+- **Fraud Detection Rate**: Real-time fraud detection rate
+- **Transactions Analyzed**: Transaction processing throughput
+- **Fraud by Type**: Pie chart breakdown by fraud type
+- **Memory Artifacts**: Total knowledge artifacts created
+- **Agent Uptime**: Availability tracking
+
+### Example PromQL Queries
+
+```promql
+# Fraud detection rate (per minute)
+rate(fraud_ach_fraud_detected_total[5m]) * 60
+
+# Fraud percentage
+fraud_ach_fraud_detected_total / fraud_ach_transactions_analyzed_total * 100
+
+# Top fraud types
+topk(3, fraud_ach_fraud_by_type)
+
+# Memory artifact growth rate
+rate(fraud_ach_memory_artifacts_total[1h])
+```
+
+## 🔍 Synthetic Data Generation
+
+Generate labeled ACH training data with configurable fraud patterns:
+
+```bash
+# Generate 200 transactions with 10% fraud
+./run-fraud-ach-watch.sh generate --transactions 200 --fraud-ratio 0.10
+
+# Output files:
+# - *.synthetic.ach (NACHA format file)
+# - *.synthetic.labels.json (fraud labels for each transaction)
+```
+
+### Fraud Scenarios Generated
+
+1. **Invalid Routing**: Non-existent or invalid checksum routing numbers
+2. **Round Amount Pattern**: Suspiciously round amounts ($1000, $500, etc.)
+3. **Amount Anomaly**: Unusually high transaction amounts
+
+### Label Format
+
+```json
+{
+  "generated_at": "2025-10-12T12:00:00Z",
+  "transaction_count": 200,
+  "fraud_ratio": 0.10,
+  "labels": [
+    {
+      "transaction_id": "123456780000001",
+      "fraud_type": "legitimate",
+      "fraud_score": 0,
+      "amount": 50000
+    },
+    {
+      "transaction_id": "123456780000042",
+      "fraud_type": "invalid_routing",
+      "fraud_score": 95,
+      "amount": 125000
+    }
+  ]
+}
+```
+
+## 🔍 Debugging and Troubleshooting
+
+### Quick Health Checks
+
+```bash
+# Check all services
+./run-fraud-ach-watch.sh status
+./run-fraud-ach-watch.sh health
+
+# Test API endpoints
+curl -f http://localhost:8080/health
+curl -f http://localhost:9090/metrics
+```
+
+### View Logs and Status
+
+```bash
+# Container logs
+./run-fraud-ach-watch.sh logs -f
+
+# Processing logs (inside container)
+docker exec crewai-fraud-ach-agent ls -la /work/output/logs/
+docker exec crewai-fraud-ach-agent tail -f /work/output/logs/*.log
+
+# Show current metrics
+./run-fraud-ach-watch.sh metrics
+```
+
+### Common Issues
+
+**Parse Errors:**
+- Ensure ACH files are properly formatted (94 characters per line)
+- Verify file encoding is ASCII or UTF-8
+- Check for missing or extra line breaks
+
+**No Files Found:**
+- Ensure input files have `.ach` or `.txt` extension
+- Verify Docker volume mounts in container mode
+- Check file permissions
+
+**API Connection Issues:**
+- Check if ports 8080/9090 are available: `netstat -tulpn | grep -E '(8080|9090)'`
+- Verify container is running: `./run-fraud-ach-watch.sh status`
+- Test health endpoint: `curl http://localhost:8080/health`
+
+**High False Positives:**
+- Adjust fraud detection thresholds in `fraud_engine.py`
+- Increase `amount_minimum_samples` for better statistical baseline
+- Modify velocity limits for your use case
+
+## 🚀 Production Deployment
+
+### Standalone Container
+
+```bash
+# Production daemon with persistent volumes
+docker run -d --name crewai-fraud-ach-agent \
+  --restart unless-stopped \
+  -p 8080:8080 -p 9090:9090 \
+  -v "$(pwd)/input:/work/input" \
+  -v "$(pwd)/output:/work/output" \
+  -v "$(pwd)/kb:/work/kb" \
+  rrecktek/crewai-fraud-ach:1.0.0 \
+  python3 /opt/app/main.py --daemon --log-level INFO
+```
+
+### Docker Compose Integration
+
+```yaml
+version: "3.9"
+services:
+  fraud-ach-agent:
+    image: rrecktek/crewai-fraud-ach:1.0.0
+    container_name: crewai-fraud-ach-agent
+    restart: unless-stopped
+    ports:
+      - "8080:8080"  # A2A API
+      - "9090:9090"  # Prometheus metrics
+    volumes:
+      - ./input:/work/input
+      - ./output:/work/output
+      - ./kb:/work/kb
+    environment:
+      - LOG_LEVEL=INFO
+    command: ["python3", "/opt/app/main.py", "--daemon"]
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    networks:
+      - crewai-network
+
+networks:
+  crewai-network:
+    external: true
+```
+
+## ⚠️ Important Notes
+
+- **Data Privacy**: All processing is on-premises; no PII leaves the system
+- **NACHA Compliance**: Supports all standard record types and transaction codes
+- **Memory Persistence**: kb/ directory contains all learned patterns and provenance
+- **Thresholds**: Configurable via `FraudDetectionConfig` class
+- **Performance**: Parallel processing limited to 4 workers by default
+- **OFAC**: Current implementation is simulation; use real OFAC data in production
+- **Audit Trail**: All detections logged with full provenance in memory system
+
+## 📝 Development
+
+### Dependencies
+
+- Python 3.11+
+- `python-daemon` for daemon mode support
+- `requests` for HTTP API calls
+- Standard library: `json`, `hashlib`, `hmac`, `statistics`, `threading`
+
+### Architecture
+
+1. **ach_schema.py**: ACH/NACHA format handling
+2. **fraud_engine.py**: Multi-strategy fraud detection
+3. **memory_system.py**: Biomimicry memory with provenance
+4. **main.py**: Agent orchestration and API
+
+## 📜 License
+
+Copyright (c) RRECKTEK LLC. All rights reserved.
+
+## 🆘 Support
+
+- Check logs first: `./run-fraud-ach-watch.sh logs`
+- Validate configuration: `./run-fraud-ach-watch.sh status`
+- Test health endpoints: `./run-fraud-ach-watch.sh health`
+- Review metrics: `./run-fraud-ach-watch.sh metrics`
+- Verify ACH file format (94 chars/line, proper record types)
+
+---
+
+**Quick Start Summary:**
+
+1. `./run-fraud-ach-watch.sh build` - Build the container
+2. `./run-fraud-ach-watch.sh daemon` - Start the agent
+3. `./run-fraud-ach-watch.sh generate --transactions 200` - Generate synthetic data
+4. Place ACH files in `input/` directory
+5. `./run-fraud-ach-watch.sh trigger-batch` - Run fraud detection
+6. Check `output/*.fraud-analysis.json` for results
+7. View metrics: http://localhost:9090/metrics

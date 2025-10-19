@@ -1,0 +1,2230 @@
+{
+  "file": "/work/input/scenario1_legitimate_payroll.ach",
+  "analyzed_at": "2025-10-12T16:16:29.298194",
+  "transaction_count": 200,
+  "fraud_detected_count": 0,
+  "fraud_results": [
+    {
+      "transaction_id": "063100275498951",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009599280040",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009597374431",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009593273938",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000026299785",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009595927429",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000038829903",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000241612576",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105159149641",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000035593386",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000025444978",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105156237747",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009590117216",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009590985666",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009599039113",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009594497049",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000035430614",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009591682020",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100270133099",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105158500131",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009591082294",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000020009015",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105156708491",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000246611704",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000024511809",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009592077072",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201462461467",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100278260639",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100275563549",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000035823466",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201465006650",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000036798243",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000243162678",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000035229494",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009591751649",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201460704809",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000025759024",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000026545394",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201465033668",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000022696777",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000037116719",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000022025451",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201463831807",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201465206903",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105151297418",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000027005922",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000242331672",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000023536829",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105152831142",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201469479183",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000027741847",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009599855850",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201462101683",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000028779608",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100279650502",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000029536226",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000025380503",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000247065619",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000243793866",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009593506815",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000022959454",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000023881991",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000031502254",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009596329202",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201466501917",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000039510138",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000025087725",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000249225817",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000039250274",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009591167362",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000026044300",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000038503048",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000022300374",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000244433200",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000029379143",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201464999191",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009598219972",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000248193290",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000031117260",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000027679172",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000026865262",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000240775358",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000033621272",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100278849424",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000025820321",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000022248507",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000240814513",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000241053391",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000024926087",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000245652457",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201461662622",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000026087105",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000034782199",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000024174154",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105157835836",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000028364021",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000036907843",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000023498410",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009593598720",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201463891034",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000037758614",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105155818462",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009596354415",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105152451584",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201466524554",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100276534342",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000247830233",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000020947870",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009596829725",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000023973780",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000027747327",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201463583993",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000021861158",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201462837554",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100274968720",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100273957576",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100270910087",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105153135421",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201462273667",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201469045536",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000032435684",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100278925206",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009591602283",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100274960966",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105153776491",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009591790243",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000026531578",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000245084656",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000022711139",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000028017264",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201464396323",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105150592686",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201461197823",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201460526260",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000021479776",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009595764750",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009591103574",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105150369382",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000039514582",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000029068175",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009592967123",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100276282888",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000240945799",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000026876887",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201460007503",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201460939533",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105151593614",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000022233458",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100272056474",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201466771941",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000030199431",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000035326391",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201468629827",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009591169500",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000031287652",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105156493582",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009591582850",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000027727543",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000248452995",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000243604729",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100270124106",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100272525723",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000025069817",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000248764263",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100277046981",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000241124617",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000025052149",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009591886558",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000023944450",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105158715464",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100277214063",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000243741176",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000246221982",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009595535562",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000022462179",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000024421000",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000039536800",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000020633236",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000244608519",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000028786297",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000029230021",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201465310802",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100273039049",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201460804941",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009597863146",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105150540393",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "063100270162443",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009592568865",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000022625380",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "111000025341279",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "044000039436848",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000245087309",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201464030736",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000029347324",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "021000027976584",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201462495850",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "026009597950940",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "122105151773289",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "031201465305159",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    },
+    {
+      "transaction_id": "121000248019681",
+      "fraud_detected": false,
+      "fraud_types": [
+        "legitimate"
+      ],
+      "risk_score": 0,
+      "risk_level": "low",
+      "details": {},
+      "timestamp": 1760285789
+    }
+  ],
+  "engine_statistics": {
+    "total_transactions_analyzed": 200,
+    "fraud_type_counts": {},
+    "unique_accounts": 200,
+    "unique_routing_numbers": 8,
+    "amount_statistics": {
+      "mean": 257136.1,
+      "median": 191919.5,
+      "stdev": 166812.44234332294,
+      "q1": 109005.25,
+      "q3": 449020.0,
+      "min": 77684,
+      "max": 486786,
+      "count": 10
+    },
+    "detection_config": {
+      "velocity_max_transactions": 50,
+      "velocity_window_days": 7.0,
+      "duplicate_window_hours": 24.0,
+      "zscore_threshold": 3.0
+    }
+  }
+}

@@ -1,0 +1,3 @@
+Processing /work/input/scenario1_legitimate_payroll.ach at 2025-10-12 17:40:49.977493
+SUCCESS: Analyzed 200 transactions in 16.61s
+Output: /work/output/1760290866.scenario1_legitimate_payroll.ach.fraud-analysis.json

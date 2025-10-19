@@ -1,0 +1,3 @@
+Processing /work/input/scenario2_invalid_routing.ach at 2025-10-15 07:53:27.591577
+SUCCESS: Analyzed 150 transactions in 86.60s
+Output: /work/output/1760514894.scenario2_invalid_routing.ach.fraud-analysis.json

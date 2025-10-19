@@ -1,0 +1,11 @@
+global:
+  scrape_interval: 30s
+  evaluation_interval: 30s
+
+scrape_configs:
+  - job_name: 'fraud-ach-agent'
+    static_configs:
+      - targets: ['crewai-fraud-ach-agent:9090']
+        labels:
+          agent: 'fraud-ach'
+          type: 'financial'

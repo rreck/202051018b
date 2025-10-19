@@ -1,0 +1,105 @@
+{
+  "dashboard": {
+    "title": "CrewAI ACH Fraud Detection Agent",
+    "tags": ["crewai", "fraud-detection", "ach", "financial"],
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "Files Processed",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "fraud_ach_files_processed_total",
+            "legendFormat": "Files Processed"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "color": {"mode": "thresholds"},
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {"color": "green", "value": null}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 2,
+        "title": "Fraud Detection Rate",
+        "type": "gauge",
+        "targets": [
+          {
+            "expr": "rate(fraud_ach_fraud_detected_total[5m])",
+            "legendFormat": "Fraud/min"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "short",
+            "min": 0,
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {"color": "green", "value": null},
+                {"color": "yellow", "value": 5},
+                {"color": "red", "value": 10}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 3,
+        "title": "Transactions Analyzed",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(fraud_ach_transactions_analyzed_total[5m])",
+            "legendFormat": "Transactions/sec"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Fraud by Type",
+        "type": "piechart",
+        "targets": [
+          {
+            "expr": "fraud_ach_fraud_by_type",
+            "legendFormat": "{{type}}"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Memory Artifacts",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "fraud_ach_memory_artifacts_total",
+            "legendFormat": "Total Artifacts"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Agent Uptime",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "fraud_ach_daemon_uptime_seconds",
+            "legendFormat": "Uptime"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "s"
+          }
+        }
+      }
+    ]
+  }
+}

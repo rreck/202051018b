@@ -1,0 +1,3 @@
+Processing /work/input/scenario4_mixed_fraud.ach at 2025-10-13 18:49:38.867663
+SUCCESS: Analyzed 300 transactions in 23.73s
+Output: /work/output/1760381402.scenario4_mixed_fraud.ach.fraud-analysis.json

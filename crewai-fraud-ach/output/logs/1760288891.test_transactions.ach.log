@@ -1,0 +1,3 @@
+Processing /work/input/test_transactions.ach at 2025-10-12 17:08:11.632771
+SUCCESS: Analyzed 50 transactions in 2.11s
+Output: /work/output/1760288893.test_transactions.ach.fraud-analysis.json
